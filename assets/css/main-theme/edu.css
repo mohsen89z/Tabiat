@@ -1,0 +1,539 @@
+
+.scroll.navbar-brand.scroll {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    width: 250px !important;
+    margin: 6px 0 0 6px !important;
+}
+
+.homapay-partner-logo {
+    max-width: 10vw;
+    -webkit-filter: grayscale(0) !important;
+    -moz-filter: grayscale(0) !important;
+    -ms-filter: grayscale(0) !important;
+    filter: grayscale(0) !important;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.homapay-partner-logo:hover {
+    -webkit-filter: grayscale(1) !important;
+    -moz-filter: grayscale(1) !important;
+    -ms-filter: grayscale(1) !important;
+    filter: grayscale(1) !important;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.cbp-l-grid-work .cbp-item-wrapper {
+    background-color: #3f51b5;
+}
+
+.cbp-item .cbp-l-grid-work-title {
+    background: #3f51b5;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.cbp-item .cbp-l-grid-work-desc {
+    background: #3f51b5;
+    color: #ffffff;
+}
+
+#open-position + .section-xlg .container p {
+    color: #ffffff;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .homapay-partner-logo {
+        margin: 0px 20px 0px 20px;
+    }
+
+    .tp-banner-container fieldset {
+        position: absolute;
+        top: 20%;
+        left: 7%;
+    }
+
+    .tp-banner-container fieldset, .container fieldset {
+        font-size: 1vw;
+        width: 65%;
+        text-align: justify;
+    }
+
+    .tp-banner-container fieldset h1, .container fieldset h1 {
+        font-size: 2vw !important;
+    }
+
+    .tp-banner-container fieldset legend, .container fieldset legend {
+        font-size: 3vw;
+        font-weight: bold;
+    }
+
+    #sStory + .container {
+        margin-left: 38vw;
+        width: 50vw;
+    }
+
+    #sWhat + .container {
+        margin-left: 8%;
+        width: 80%;
+    }
+
+    #sVision + .container {
+        margin-left: 2%;
+        width: 32%;
+    }
+
+    #sJoin + fieldset {
+        margin-left: 38%;
+    }
+
+    #sVision + .tp-banner-container img.img-responsive + fieldset {
+        color: #091869;
+    }
+
+    #sVision + .tp-banner-container img.img-responsive + fieldset legend {
+        color: rgba(63, 81, 181, .8);
+    }
+
+    #sJoin + .container fieldset {
+        margin: 3% 0 2% 0;
+    }
+
+    #sJoin + .container fieldset legend {
+        color: rgba(63, 81, 181, .8);
+    }
+
+    #sLandingContainer + .section-xlg {
+        height: 100vh !important;
+        background-size: cover !important;
+    }
+
+    #sLandingContainer + .section-xlg .landing-wrapper {
+        height: calc(78vh - 96px);
+        width: 40%;
+    }
+
+    #sLandingContainer + .section-xlg .landing-wrapper h1 {
+        padding-top: 200px;
+        margin-top: 0px;
+        font-size: 4.5em;
+    }
+
+    #sLandingContainer + .section-xlg .landing-wrapper span {
+        font-size: 6em;
+        font-variant: small-caps;
+        font-weight: 800;
+    }
+
+    #sStoryContainer + .section-xlg, #sWhatContainer + .section-xlg, #sVisionContainer + .section-xlg {
+        background-size: cover !important;
+        height: 100vh !important;
+    }
+
+    #sPropContainer + .section-xlg .container {
+        margin: 0;
+        width: 95%;
+    }
+
+    mob-text {
+        display: none;
+    }
+
+    screen-text {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .homapay-partner-logo {
+        margin: 0px 5px 0px 5px;
+    }
+
+    .section-xlg {
+        padding: 0px 0 !important;
+    }
+
+    legend {
+        margin-bottom: 5px;
+    }
+
+    .tp-banner-container fieldset {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+    .tp-banner-container fieldset, .container fieldset {
+        text-align: justify;
+    }
+
+    .tp-banner-container fieldset h1, .container fieldset h1 {
+        font-size: 1.3em !important;
+    }
+
+    .tp-banner-container fieldset legend, .container fieldset legend {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    #sLandingContainer + .section-xlg {
+        background-size: cover !important;
+        height: 78vh !important;
+    }
+
+    #sLandingContainer + .section-xlg .landing-wrapper {
+        height: 78vh;
+        width: 100%;
+    }
+
+    #sLandingContainer + .section-xlg .landing-wrapper h1 {
+        padding-top: 100px;
+        margin-top: 0px;
+        font-size: 2.5em;
+    }
+
+    #sLandingContainer + .section-xlg .landing-wrapper span {
+        font-size: 4em;
+        font-variant: small-caps;
+        font-weight: 800;
+    }
+
+    #sStory + .container {
+        margin-left: 54vw;
+        width: 44vw;
+        margin-right: 2vw;
+        padding: 25px 0px 25px 0px;
+    }
+
+    #sWhat + .container {
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+        padding-top: 60px;
+        padding-right: 0px;
+    }
+
+    #sWhat + .container h1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #sVisionContainer + .section-xlg {
+        padding-top: 1px !important;
+    }
+
+    #sVision + .container {
+        margin-left: 3vw;
+        width: 70vw;
+        margin-right: 27vw;
+        padding-top: 2vh;
+        padding-left: 0;
+    }
+
+    #sJoin + fieldset {
+        margin-left: 10%;
+    }
+
+    #sVision + .tp-banner-container img.img-responsive + fieldset {
+        color: #091869;
+    }
+
+    #sVision + .tp-banner-container img.img-responsive + fieldset legend {
+        color: rgba(63, 81, 181, .8);
+    }
+
+    #sJoin + .container fieldset {
+        margin: 3% 0 2% 0;
+    }
+
+    #sJoin + .container fieldset legend {
+        color: rgba(63, 81, 181, .8);
+    }
+
+    #sStoryContainer + .section-xlg {
+        background-size: cover !important;
+        height: 50vh !important;
+    }
+
+    #sWhatContainer + .section-xlg {
+        background-size: cover !important;
+        height: 50vh !important;
+    }
+
+    #sVisionContainer + .section-xlg {
+        background-size: cover !important;
+        height: 50vh !important;
+        color: white;
+    }
+
+    #sPropContainer + .section-xlg .container {
+        margin: 0;
+        width: 95%;
+    }
+
+    mob-text {
+        display: block;
+        font-size: 1em;
+    }
+
+    screen-text {
+        display: none;
+    }
+}
+
+.homely-prop-container h3 {
+    text-align: left !important;
+    font-weight: bold;
+}
+
+.homely-prop-container .homapay-information {
+    overflow: hidden;
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    /*-moz-transition-duration: 0.7s;*/
+    /*-webkit-transition-duration: 0.7s;*/
+    /*-o-transition-duration: 0.7s;*/
+    transition-duration: 1.4s;
+    -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.homely-prop-container h3:hover + .homapay-information {
+    /*-moz-transition-duration: 0.7s;*/
+    /*-webkit-transition-duration: 0.7s;*/
+    /*-o-transition-duration: 0.7s;*/
+    transition-duration: 1.4s;
+    -moz-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    max-height: 1000px;
+    overflow: hidden;
+}
+
+.hampay-information {
+    /*display: none;*/
+}
+
+.navbar-trn {
+    background: rgba(196, 200, 199, 0.8) !important;
+}
+
+.navbar-brand .Roboto-BoldCondensed {
+    text-transform: capitalize;
+    font-size: 2em;
+    margin-right: -5px;
+}
+
+/*.navbar-brand .Roboto-BoldCondensed::before {*/
+/*content: " \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0";*/
+/*}*/
+
+.navbar-brand .Roboto-Light {
+    font-size: 1.4em;
+}
+
+#sVisionContainer + .section-xlg legend {
+    color: white;
+}
+
+.navbar .navbar-nav > li > a {
+    font-size: 1.1em !important;
+}
+
+.bg-coolblue {
+    background-color: #34495e;
+}
+
+.bg-coolblue2 {
+    background-color: #082330;
+}
+
+iframe {
+    border: 0px;
+    width: 95vw;
+}
+
+.hv-center iframe {
+    border: 0px;
+    width: 99vw;
+    height: 80vh;
+}
+
+ul.inline-items {
+    float: left;
+    width: 100%;
+}
+
+.inline-items li {
+    display: inline-block;
+    list-style: none outside none;
+}
+
+.homapay-partner-logo {
+    display: block;
+    background-size: contain !important;
+}
+
+/*LANDING EFFECT*/
+
+.landing-wrapper {
+    /*background: rgba(95, 95, 95, 0.65) !important;*/
+    color: white;
+    text-align: center;
+    float: right;
+}
+
+#History .section {
+    height: 410px;
+}
+
+#HistoryFrame {
+    width: 40vw;
+}
+
+#HistoryImg {
+    background: url("../../img/edu/slides/history-slide.png");
+    background-size: cover;
+    height: 410px;
+    float: right;
+    margin-top: -50px;
+    width: 50vw
+}
+
+.AboutImg {
+    background: url("../../img/edu/slides/about-slide.jpg");
+    background-size: 100% 105%;;
+    height: 80vh;
+}
+
+@media (max-width: 768px) {
+    #HistoryImg {
+        margin-top: -30px;
+    }
+}
+
+.navbar-trn .navbar-text:hover, .navbar-trn .navbar-nav > li > a:hover, .navbar-trn .navbar-text:focus, .navbar-trn .navbar-nav > li > a:focus {
+    color: #000;
+}
+
+.navbar-trn .navbar-text, .navbar-trn .navbar-nav > li > a {
+    color: #000;
+}
+
+.navbar-trn .navbar-nav > .open > a, .navbar-trn .navbar-nav > .open > a:hover, .navbar-trn .navbar-nav > .open > a:focus, .navbar-trn .navbar-nav > .disabled > a, .navbar-trn .navbar-nav > .disabled > a:hover, .navbar-trn .navbar-nav > .disabled > a:focus, .navbar-trn .navbar-nav > .active > a, .navbar-trn .navbar-nav > .active > a:hover, .navbar-trn .navbar-nav > .active > a:focus {
+    color: #6A1B9A;
+}
+
+.owl-wrapper {
+    float: left !important;
+}
+
+.content-circle {
+    background: rgba(3, 184, 103, 0.8);
+}
+
+.item h3 , .footer .paraf h3{
+    color: rgb(3, 184, 103);
+}
+
+.footer .paraf img{
+    width: 19vw;
+    height: 15vh;
+}
+
+.footer .paraf img:first-of-type {
+    border-radius: 20px 20px 0 0;
+}
+
+.footer .paraf img:last-of-type {
+    border-radius: 0 0 20px 20px;
+}
+
+.footer .paraf a, .footer .paraf span , .footer .paraf h3 {
+    text-align: right;
+}
+
+.footer .paraf h3:first-child {
+    text-align: center;
+}
+
+.footer .paraf a, .footer .paraf span {
+    color: darkgray;
+    white-space: pre-line;
+    font-size: medium;
+}
+
+.footer .paraf a:hover{
+    color: white;
+}
+
+
+.footer .paraf {
+    height: 40vh;
+    padding: 0;
+}
+
+.footer .paraf h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#sStory + .container {
+    width: 80vw;
+}
+
+.paraf:first-child {
+    right: 25%;
+}
+
+.paraf a {
+    padding: 3px;
+    color: #03B966;
+    font-size: 17px;
+    font-weight: 500;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.paraf a:hover {
+    color: #E91E63;
+    text-decoration: blink;
+    font-size: 20px;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.paraf {
+    float: right;
+    width: 24%;
+    height: 10vh;
+    display: inline-block;
+}
+
+li.dropdown-submenu:hover ul.multi-level {
+    background: rgba(196, 200, 199, 0.8) !important;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: inherit !important;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}

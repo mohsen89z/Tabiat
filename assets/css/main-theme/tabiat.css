@@ -1,0 +1,161 @@
+.selected-trip {
+    width: 15vw;
+    height: 30vh;
+    display: inline-block;
+    background: #676767;
+    border: 1px solid #000;
+    color: #ffffff;
+    -webkit-filter: grayscale(0) !important;
+    -moz-filter: grayscale(0) !important;
+    -ms-filter: grayscale(0) !important;
+    filter: grayscale(0) !important;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.selected-trip:hover {
+    -webkit-filter: grayscale(1) !important;
+    -moz-filter: grayscale(1) !important;
+    -ms-filter: grayscale(1) !important;
+    filter: grayscale(1) !important;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.selected-trip .trip-title {
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.selected-trip:hover .trip-title{
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    margin-bottom: 0vh;
+    margin-top: 7vh;
+}
+
+.trip-title {
+    font-size: 2.4em;
+    margin-bottom: 15vh;
+}
+
+.trip-title::after {
+    width: 50%;
+    content: "";
+    display: block;
+    position: relative;
+    left: 25%;
+    -webkit-transition: width 0.15s ease;
+    transition: width 0.15s ease;
+    border-bottom: 2px solid #00bcd4;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+.trip-desc {
+    font-size: 1.4em;
+}
+
+.trip-duration {
+    font-size: 2em;
+}
+
+.search-button-txt {
+    display: inline-block;
+    width: 25%;
+}
+
+.search-button-txt {
+    color: #5A697C;
+    font-size: 1.3em;
+}
+
+
+.trip-list {
+    width: 25vw;
+    height: 30vh;
+    display: inline-block;
+    background: #676767;
+    border: 1px solid #000;
+    color: #ffffff;
+    -webkit-filter: grayscale(0) !important;
+    -moz-filter: grayscale(0) !important;
+    -ms-filter: grayscale(0) !important;
+    filter: grayscale(0) !important;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.trip-list:hover {
+    -webkit-filter: grayscale(1) !important;
+    -moz-filter: grayscale(1) !important;
+    -ms-filter: grayscale(1) !important;
+    filter: grayscale(1) !important;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.trip-list .trip-title {
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+/*.trip-list:hover .trip-title{*/
+    /*-webkit-transition: .5s ease-in-out;*/
+    /*-moz-transition: .5s ease-in-out;*/
+    /*-o-transition: .5s ease-in-out;*/
+    /*margin-bottom: 0vh;*/
+    /*margin-top: 7vh;*/
+/*}*/
+
+.ftrip-no1 {
+    background: url('../../img/slides/780/FT-1.jpg') no-repeat !important;
+}
+
+.ftrip-no2 {
+    background: url('../../img/slides/780/FT-2.jpg') no-repeat !important;
+}
+
+.ftrip-no3 {
+    background: url('../../img/slides/780/FT-3.jpg') no-repeat !important;
+}
+
+.ftrip-no4 {
+    background: url('../../img/slides/780/FT-4.jpg') no-repeat !important;
+}
+
+.lTrip-no1-1 {
+    background: url('../../img/slides/780/TL-1.jpg') no-repeat !important;
+}
+
+.lTrip-no1-2 {
+    background: url('../../img/slides/780/TL-2.jpg') no-repeat !important;
+}
+
+.lTrip-no1-3 {
+    background: url('../../img/slides/780/TL-3.jpg') no-repeat !important;
+}
+
+.lTrip-no2-1 {
+    background: url('../../img/slides/780/TL-4.jpg') no-repeat !important;
+}
+
+.lTrip-no2-2 {
+    background: url('../../img/slides/780/TL-5.jpg') no-repeat !important;
+}
+
+.lTrip-no2-3 {
+    background: url('../../img/slides/780/TL-6.jpg') no-repeat !important;
+}
+
+.scroll.navbar-brand.scroll {
+    background: url('../../img/logo/tabiat/logo.png') !important;
+}

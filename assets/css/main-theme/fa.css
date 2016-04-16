@@ -1,0 +1,75 @@
+body {
+    direction: rtl;
+}
+
+.navbar-collapse.Iran-Sans-Medium {
+    font-size: 1.4em !important;
+}
+
+
+@media (min-width: 768px) {
+    .navbar-header {
+        float: right;
+    }
+
+    .navbar-collapse.Iran-Sans-Medium {
+        float: left;
+    }
+
+    .navbar-brand .Iran-Sans-Light::after {
+        content: " \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0";
+    }
+
+    #sVision + .container {
+        margin-right: 77%;
+        margin-left: 0;
+        width: 21%;
+    }
+
+    #sVision + .container fieldset {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand .Iran-Sans-Light::after {
+        content: " \00a0 \00a0 \00a0 \00a0 \00a0 \00a0";
+    }
+}
+
+
+@media (max-width: 320px) {
+    .scroll.navbar-brand.scroll {
+        background: url('../../img/logo/HOMA/64/Logo-64-x-64-F1.png') !important;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 780px) {
+    .scroll.navbar-brand.scroll {
+        background: url('../../img/logo/HOMA/64/Logo-64-x-64-F1.png') !important;
+    }
+}
+
+@media (min-width: 781px) and (max-width: 1440px) {
+    .scroll.navbar-brand.scroll {
+        background: url('../../img/logo/HOMA/128/Logo-128-x-128-F1.png') !important;
+    }
+}
+
+@media (min-width: 1441px) {
+    .scroll.navbar-brand.scroll {
+        background: url('../../img/logo/HOMA/256/Logo-256-x-256-F11.png') !important;
+    }
+}
+
+.scroll.navbar-brand.scroll {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    width: 250px !important;
+    margin: 6px 0 0 6px !important;
+}
+
+
+.landing-wrapper {
+    float: none;
+}

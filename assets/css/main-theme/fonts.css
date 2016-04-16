@@ -1,0 +1,294 @@
+@font-face {
+    font-family: roboto-black;
+    src: url(../../fonts/plugins/roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: roboto-black-italic;
+    src: url(../../fonts/plugins/roboto/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(../../fonts/plugins/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold-condensed;
+    src: url(../../fonts/plugins/roboto/Roboto-BoldCondensed.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold-condensed-italic;
+    src: url(../../fonts/plugins/roboto/Roboto-BoldCondensedItalic.ttf);
+}
+
+
+@font-face {
+    font-family: roboto-bold-italic;
+    src: url(../../fonts/plugins/roboto/Roboto-BoldItalic.ttf);
+}
+
+
+@font-face {
+    font-family: roboto-italic;
+    src: url(../../fonts/plugins/roboto/Roboto-Italic.ttf);
+}
+
+
+@font-face {
+    font-family: roboto-light;
+    src: url(../../fonts/plugins/roboto/Roboto-Light.ttf);
+}
+
+
+@font-face {
+    font-family: roboto-light-italic;
+    src: url(../../fonts/plugins/roboto/Roboto-LightItalic.ttf);
+}
+
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../../fonts/plugins/roboto/Roboto-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: roboto-medium;
+    src: url(../../fonts/plugins/roboto/Roboto-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: roboto-medium-italic;
+    src: url(../../fonts/plugins/roboto/Roboto-MediumItalic.ttf);
+}
+
+
+@font-face {
+    font-family: roboto-thin;
+    src: url(../../fonts/plugins/roboto/Roboto-Thin.ttf);
+}
+
+
+@font-face {
+    font-family: roboto-thin-italic;
+    src: url(../../fonts/plugins/roboto/Roboto-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: roboto-condensed;
+    /*src: url(../../fonts/plugins/roboto/Roboto-Condensed.ttf);*/
+    src: url(../../fonts/plugins/roboto/test.ttf);
+}
+
+
+/* IRAN SANS FONTS */
+
+@font-face {
+    font-family: iran-sans;
+    src: url(../../fonts/plugins/Iran-sans/IRAN-Sans.ttf);
+}
+
+@font-face {
+    font-family: iran-sans-2;
+    src: url(../../fonts/plugins/Iran-sans/IRAN-Sans-2.ttf);
+}
+
+
+@font-face {
+    font-family: iran-sans-3;
+    src: url(../../fonts/plugins/Iran-sans/IRAN-Sans-3.ttf);
+}
+
+
+@font-face {
+    font-family: iran-sans-bold;
+    src: url(../../fonts/plugins/Iran-sans/IRAN-Sans-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: iran-sans-bold-2;
+    src: url(../../fonts/plugins/Iran-sans/IRAN-Sans-Bold-2.ttf);
+}
+
+
+@font-face {
+    font-family: iran-sans-bold-3;
+    src: url(../../fonts/plugins/Iran-sans/IRAN-Sans-Bold-3.ttf);
+}
+
+
+@font-face {
+    font-family: iran-sans-light;
+    src: url(../../fonts/plugins/Iran-sans/IRAN-Sans-Light.ttf);
+}
+
+@font-face {
+    font-family: iran-sans-light-2;
+    src: url(../../fonts/plugins/Iran-sans/IRAN-Sans-Light-2.ttf);
+}
+
+
+@font-face {
+    font-family: iran-sans-light-3;
+    src: url(../../fonts/plugins/Iran-sans/IRAN-Sans-Light-3.ttf);
+}
+
+
+@font-face {
+    font-family: iran-sans-ultra-light;
+    src: url(../../fonts/plugins/Iran-sans/IRAN-Sans-Ultra-Light.ttf);
+}
+
+
+@font-face {
+    font-family: iran-sans-ultra-light-2;
+    src: url(../../fonts/plugins/Iran-sans/IRAN-Sans-Ultra-Light-2.ttf);
+}
+
+
+@font-face {
+    font-family: iran-sans-ultra-light-3;
+    src: url(../../fonts/plugins/Iran-sans/IRAN-Sans-Ultra-Light-3.ttf);
+}
+
+/*ROBOTO FONTS CLASSES*/
+
+.Roboto-BlackItalic{
+    font-family: roboto-black-italic !important;
+}
+.Roboto-BoldCondensedItalic{
+
+    font-family: roboto-bold-condensed-italic !important;
+}
+.Roboto-BoldItalic{
+    font-family: roboto-bold-italic !important;
+
+}
+.Roboto-CondensedItalic{
+
+    font-family: roboto-bold-condensed-italic !important;
+}
+.Roboto-Italic{
+    font-family: roboto-italic !important;
+
+}
+.Roboto-Light{
+    font-family:roboto-light !important;
+
+}
+.Roboto-Medium{
+    font-family: roboto-medium !important;
+
+}
+.Roboto-ThinItalic{
+    font-family: roboto-thin-italic !important;
+
+}
+.Roboto-Black{
+    font-family: roboto-black !important;
+
+}
+.Roboto-BoldCondensed{
+    font-family: roboto-bold-condensed !important;
+
+}
+.Roboto-Bold{
+    font-family: roboto-bold !important;
+}
+.Roboto-Condensed{
+
+    font-family: roboto-condensed !important;
+
+}
+.Roboto-LightItalic{
+    font-family: roboto-light-italic !important;
+
+}
+.Roboto-MediumItalic{
+    font-family: roboto-medium-italic !important;
+}
+.Roboto-Regular{
+    font-family: roboto-regular !important;
+}
+.Roboto-Thin{
+    font-family:roboto-thin !important;
+}
+
+/*IRAN_SANS FONTS CLASSES*/
+
+.Iran-Sans {
+    font-family: iran-sans;
+}
+
+.Iran-Sans-2 {
+    font-family: iran-sans-2;
+}
+
+.Iran-Sans-3 {
+    font-family: iran-sans-3;
+}
+
+.Iran-Sans-Bold {
+    font-family: iran-sans-bold;
+}
+
+.Iran-Sans-Bold-2 {
+    font-family: iran-sans-bold-2;
+}
+
+.Iran-Sans-Bold-3 {
+    font-family: iran-sans-bold-3;
+}
+
+.Iran-Sans-Medium {
+    font-family: iran-sans-light;
+    font-weight: bolder;
+}
+
+.Iran-Sans-Light {
+    font-family: iran-sans-light;
+}
+
+.Iran-Sans-Light-2 {
+    font-family: iran-sans-light-2;
+}
+
+.Iran-Sans-Light-3 {
+    font-family: iran-sans-light-3;
+}
+
+.Iran-Sans-Ultra-Light {
+    font-family: iran-sans-ultra-light;
+}
+
+.Iran-Sans-Ultra-Light-2 {
+    font-family: iran-sans-ultra-light;
+}
+
+.Iran-Sans-Ultra-Light-3 {
+    font-family: iran-sans-ultra-light-3;
+}
+
+/*COLORS*/
+
+.Cerulean-Blue
+{
+    color: #3f51b5 !important;
+}
+.White-Color
+{
+    color: #ffffff;
+}
+
+.Black-Color
+{
+    color: #000000;
+}
+
+.Dark-Gray {
+    color: #657487;
+}
