@@ -521,11 +521,21 @@ ul.inline-items {
 }
 
 li.dropdown-submenu:hover ul.multi-level {
-    background: rgba(196, 200, 199, 0.8) !important;
+    background: rgba(196, 200, 199, 0.9) !important;
+}
+
+.dropdown-submenu > .dropdown-menu.first-sub-menu {
+    top: inherit !important;
+    right: 0 !important;
 }
 
 .dropdown-submenu > .dropdown-menu {
-    top: inherit !important;
+    right: 100% !important;
+}
+
+.dropdown-menu .pull-right {
+    width: 100%;
+    text-align: right;
 }
 
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
