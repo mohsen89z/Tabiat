@@ -4228,7 +4228,7 @@ body.wrap-width {
 .tp-banner-container {
     position: relative !important;
     overflow: hidden !important;
-    max-height: 700px !important;
+    max-height: 600px !important;
     max-width: 100% !important;
 }
 

@@ -158,4 +158,18 @@
 
 .scroll.navbar-brand.scroll {
     background: url('../../img/logo/tabiat/logo.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    padding: 3px 25px 3px 25px;
+}
+
+.dropdown-menu > li > a, .dropdown-menu > li > a {
+    font-size: large;
+}
+
+.main-with-sub>a:first-of-type:after {
+    display: none !important;
 }

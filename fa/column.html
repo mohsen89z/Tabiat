@@ -39,7 +39,6 @@
     <link rel="stylesheet" href="../assets/css/main-theme/fonts.css">
     <link rel="stylesheet" href="../assets/css/main-theme/fa.css">
     <link rel="stylesheet" href="../assets/css/main-theme/tabiat.css">
-    <link rel="stylesheet" href="../assets/css/main-theme/inner.css">
 
     <link rel="stylesheet" href="../assets/css/main-theme/bootstrap.min.css">
     <script src="../assets/js/jquery.min.js"></script>
@@ -56,8 +55,6 @@
     <link rel="stylesheet" href="../assets/css/inner/bootstrap.min.rtl.css" type="text/css">
     <link rel="stylesheet" href="../assets/css/inner/bootstrap-responsive.min.rtl.css" type="text/css">
     <link rel="stylesheet" href="../assets/css/inner/font-awesome.css" type="text/css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=BYekan" type="text/css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=BYekan:400,600,700,800" type="text/css">
     <link rel="stylesheet" href="../assets/css/inner/mobile-menu.css" type="text/css">
     <link rel="stylesheet" href="../assets/css/inner/template.css" type="text/css">
     <link rel="stylesheet" href="../assets/css/inner/preset5.css" type="text/css">
@@ -80,8 +77,57 @@
 
     <!-- NAVIGATION -->
     <div class="navbar navbar-trn navbar-fixed-top navbar-height" role="navigation" id="navbarSettings">
+        <div class="tabiat-login">
+            <div class="container Iran-Sans row White-Color">
+                <div class="col-md-2">
+                    <i style="display: inline-block; margin-right: 10px;"
+                       class="Tabiat-Green icon-user"></i>
+                    حساب کاربری
+                </div>
+                <div class="col-md-6"></div>
+                <div class="col-md-4">
+                    <ul class="icons-list center-block">
+                        <li>
+                            <form action="/" method="post">
+                                <input name="searchword" class="input-block-level" id="mod-search-searchword" type="text" placeholder="جستجو...">
+                            </form>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" title="Follow us">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" title="Follow us">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/" title="Follow us">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" title="Follow us">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com/" title="Follow us">
+                                <i class="fa fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" title="Follow us">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header" style="max-height: 60px;">
                 <!-- Mobile Navigation -->
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -91,7 +137,7 @@
                 </button>
                 <!--/END Mobile Navigation -->
                 <!-- Logo/Name -->
-                <a class="scroll navbar-brand scroll" style="max-height: 84px;" href="#sTop">
+                <a class="scroll navbar-brand scroll" href="#sTop">
                 </a>
             </div>
 
@@ -226,115 +272,83 @@
 
     <!-- Inner main Html-->
     <div class="section-xlg bs-docs-container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="profile-sidebar">
-                    <!-- SIDEBAR USERPIC -->
-                    <div class="profile-userpic">
-                        <img src="https://a.disquscdn.com/uploads/users/12295/1906/avatar92.jpg?1411420941"
-                             class="img-responsive" alt="">
-                    </div>
-                    <!-- END SIDEBAR USERPIC -->
-                    <!-- SIDEBAR USER TITLE -->
-                    <div class="profile-usertitle">
-                        <div class="profile-usertitle-name">
-                            حسام متین
-                        </div>
-                        <div class="profile-usertitle-job">
-                            طراح گرافیک
+        <div class="container">
+            <div class="row-fluid" id="main-body">
+                <div id="sp-message-area" class="span12">
+                    <div id="system-message-container">
+                        <div id="system-message">
                         </div>
                     </div>
-                    <!-- END SIDEBAR USER TITLE -->
-                    <!-- SIDEBAR BUTTONS -->
-                    <div class="profile-userbuttons">
-                        <button type="button" class="btn btn-success btn-sm">
-                            دنبال کردن
-                        </button>
-                        <button type="button" class="btn btn-danger btn-sm">
-                            پیغام دادن
-                        </button>
-                    </div>
-                    <!-- END SIDEBAR BUTTONS -->
-                    <!-- SIDEBAR MENU -->
-                    <div class="profile-usermenu">
-                        <ul class="nav">
-                            <li class="active">
-                                <a href="#">
-                                    <i class="glyphicon glyphicon-home"></i>
-                                    نگاه کلی
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="glyphicon glyphicon-user"></i>
-                                    تنظیمات اکانت
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">
-                                    <i class="glyphicon glyphicon-ok"></i>
-                                    صفحات مورد علاقه
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="glyphicon glyphicon-flag"></i>
-                                    راهنما
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- END MENU -->
-                </div>
-            </div>
-            <div class="col-md-9">
-                <div class="profile-content">
-                    <div class="profile-info">
-                        <fieldset>
-                            <legend>
-                                بنابر وصیت استاد، پیکر ایشان در زادگاهشان به خاک سپرده خواهد شد.
-                            </legend>
-                            <p>
-                                بنابر وصیت استاد، پیکر ایشان در زادگاهشان به خاک سپرده خواهد شد.بنابر وصیت استاد، پیکر
-                                ایشان در زادگاهشان به خاک سپرده خواهد شد.بنابر وصیت استاد، پیکر ایشان در زادگاهشان به
-                                خاک سپرده خواهد شد.بنابر وصیت استاد، پیکر ایشان در زادگاهشان به خاک سپرده خواهد شد.بنابر
-                                وصیت استاد، پیکر ایشان در زادگاهشان به خاک سپرده خواهد شد.
-                                بنابر وصیت استاد، پیکر ایشان در زادگاهشان به خاک سپرده خواهد شد.بنابر وصیت استاد، پیکر
-                                ایشان در زادگاهشان به خاک سپرده خواهد شد.بنابر وصیت استاد، پیکر ایشان در زادگاهشان به
-                                خاک سپرده خواهد شد.بنابر وصیت استاد، پیکر ایشان در زادگاهشان به خاک سپرده خواهد شد.بنابر
-                                وصیت استاد، پیکر ایشان در زادگاهشان به خاک سپرده خواهد شد.
-                            </p>
-                            <date>
-                                11/1/1999
-                            </date>
-                            <view>
-                                505 بازدید
-                            </view>
-                        </fieldset>
-                    </div>
-                    <div class="profile-info">
-                        <fieldset>
-                            <legend>
-                                بنابر وصیت استاد، پیکر ایشان در زادگاهشان به خاک سپرده خواهد شد.
-                            </legend>
-                            <p>
-                                بنابر وصیت استاد، پیکر ایشان در زادگاهشان به خاک سپرده خواهد شد.بنابر وصیت استاد، پیکر
-                                ایشان در زادگاهشان به خاک سپرده خواهد شد.بنابر وصیت استاد، پیکر ایشان در زادگاهشان به
-                                خاک سپرده خواهد شد.بنابر وصیت استاد، پیکر ایشان در زادگاهشان به خاک سپرده خواهد شد.بنابر
-                                وصیت استاد، پیکر ایشان در زادگاهشان به خاک سپرده خواهد شد.
-                                بنابر وصیت استاد، پیکر ایشان در زادگاهشان به خاک سپرده خواهد شد.بنابر وصیت استاد، پیکر
-                                ایشان در زادگاهشان به خاک سپرده خواهد شد.بنابر وصیت استاد، پیکر ایشان در زادگاهشان به
-                                خاک سپرده خواهد شد.بنابر وصیت استاد، پیکر ایشان در زادگاهشان به خاک سپرده خواهد شد.بنابر
-                                وصیت استاد، پیکر ایشان در زادگاهشان به خاک سپرده خواهد شد.
-                            </p>
-                            <date>
-                                11/1/1999
-                            </date>
-                            <view>
-                                505 بازدید
-                            </view>
-                        </fieldset>
-                    </div>
+                    <section id="sp-component-area-wrapper" class=" ">
+                        <div class="row-fluid" id="component-area">
+                            <div id="sp-component-area" class="span12">
+                                <section id="sp-component-wrapper">
+                                    <div id="sp-component">
+                                        <article
+                                                class="item-page post-11 post hentry status-publish category-short-code ">
+
+
+                                            <header class="entry-header">
+                                                <h1 class="entry-title page-header">
+                                                    <a href="/demo-ordbhsht93/Shaper_University/index.php/shortcode/column">
+                                                        ستون</a>
+                                                </h1>
+
+                                            </header>
+
+
+                                            <section class="entry-content">
+                                                <div class="row-fluid show-grid">
+                                                    <div class="span4"> Cras justo odio, dapibus ac facilisis in,
+                                                        egestas eget quam. Donec id elit non mi porta gravida at eget
+                                                        metus. Nullam id dolor id nibh ultricies vehicula ut id.
+                                                    </div>
+                                                    <div class="span4"> Cras justo odio, dapibus ac facilisis in,
+                                                        egestas eget quam. Donec id elit non mi porta gravida at eget
+                                                        metus. Nullam id dolor id nibh ultricies vehicula ut id.
+                                                    </div>
+                                                    <div class="span4"> Cras justo odio, dapibus ac facilisis in,
+                                                        egestas eget quam. Donec id elit non mi porta gravida at eget
+                                                        metus. Nullam id dolor id nibh ultricies vehicula ut id.
+                                                    </div>
+                                                </div>
+                                                <h3>Get the code</h3>
+<pre>[row id="ROW_ID" class="ROW_CLASS"]
+[col class="span4"]ADD_CONTENT_HERE[/col]
+[col class="span4"]ADD_CONTENT_HERE[/col]
+[col class="span4"]ADD_CONTENT_HERE[/col]
+[/row]
+</pre>
+                                                <div class="row-fluid show-grid">
+                                                    <div class="span8"> Cras justo odio, dapibus ac facilisis in,
+                                                        egestas eget quam. Donec id elit non mi porta gravida at eget
+                                                        metus. Nullam id dolor id nibh ultricies vehicula ut id. Cras
+                                                        justo odio, dapibus ac facilisis in, egestas eget quam. Donec id
+                                                        elit non mi porta gravida at eget metus. Nullam id dolor id nibh
+                                                        ultricies vehicula ut id. Nullam id dolor id nibh ultricies
+                                                        vehicula ut id. Donec id elit non mi porta gravida at eget
+                                                        metus.
+                                                    </div>
+                                                    <div class="span4"> Cras justo odio, dapibus ac facilisis in,
+                                                        egestas eget quam. Donec id elit non mi porta gravida at eget
+                                                        metus. Nullam id dolor id nibh ultricies vehicula ut id.
+                                                    </div>
+                                                </div>
+                                                <h3>Get the code</h3>
+<pre>[row id="ROW_ID" class="ROW_CLASS"]
+[col class="span8"]ADD_CONTENT_HERE[/col]
+[col class="span4"]ADD_CONTENT_HERE[/col]
+[/row]
+</pre>
+
+
+                                            </section>
+                                        </article>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
@@ -346,33 +360,121 @@
         <br/>
         <div class="container">
             <div class="row" style="text-align: center;">
-                <div class="col-md-4" style="height: 120px;">
-                    <img src="../assets/img/logo/tabiat/logo.png" align="right"
-                         style="margin-right: -15px; background-color: #fff; padding: 5px 100px 5px 20px;height: 120px;width: 320px; border-radius: 10px 0px 0px 10px;"/>
+                <div class="col-md-3">
+                    <h3>
+                        منو بار
+                    </h3>
+                    <ul style="list-style: none;">
+                        <li>
+                            <a>
+                                خانه
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                آموزش
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                در سفر
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                دست نوشته ها
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                اخبار
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                دیگر فعالیت ها
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                در باره ی ما
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h3>
                         دیگر فعالیت ها
                     </h3>
-                    <a>
-                        باشگاه هنر و طبیعت
-                    </a>
-                    <a>
-                        کافه طبیعت
-                    </a>
-                    <a>
-                        کانون کوهنوردی طبیعت
-                    </a>
-                    <a>
-                        بچه های طبیعت
-                    </a>
+                    <ul style="list-style: none;">
+                        <li>
+                            <a>
+                                باشگاه هنر و طبیعت
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                کافه طبیعت
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                کانون کوهنوردی طبیعت
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                بچه های طبیعت
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
+                    <h3>
+                        تماس با ما
+                    </h3>
+                    <ul style="list-style: none;">
+                        <li>
+                            <h4>
+                                آدرس
+                            </h4>
+                        </li>
+                        <li>
+                            <a>
+                                خیابان سید جمال اسد آبادی(یوسف آباد)، نرسیده به میدان فرهنگ،
+                                روبروی قنادی پوپک، شماره 267، طبقه ی اول، واحد
+                            </a>
+                        </li>
+                        <li>
+                            <h4>
+                                تلفن
+                            </h4>
+                        </li>
+                        <li>
+                            <a>
+                                88103928, 88103927
+                                66930777, 66930663
+                            </a>
+                        </li>
+                        <li>
+                            <h4>
+                                رایانامه
+                            </h4>
+                        </li>
+                        <li>
+                            <a>
+                                info@tabiat.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
                     <h3>
                         تبلیغات
                     </h3>
-                    <img src="../assets/img/edu/adv/adv-000.jpg"/>
-                    <img src="../assets/img/edu/adv/adv-002.jpg"/>
+                    <img class="footer-tabligh" src="../assets/img/edu/adv/adv-000.jpg"/>
+                    <img class="footer-tabligh" src="../assets/img/edu/adv/adv-002.jpg"/>
+                    <img class="footer-tabligh" src="../assets/img/edu/adv/adv-002.jpg"/>
                 </div>
             </div>
             <div class="space-sm"></div>
@@ -398,24 +500,6 @@
                     </a>
                 </li>
             </ul>
-            <div class="space-md"></div>
-            <div class="Iran-Sans-Light">
-                <div style="text-align: justify;display: inline-block; margin: 0 7px 0 7px;">
-                    خیابان سید جمال اسد آبادی(یوسف آباد)، نرسیده به میدان فرهنگ،
-                    <br/>
-                    روبروی قنادی پوپک، شماره 267، طبقه ی اول، واحد
-                </div>
-                <div style="display: inline-block; padding: 0 7px 0 7px;border-left: 1px solid #fff;border-right: 1px solid #fff;">
-                    تلفن: 88103928, 88103927
-                    <br/>
-                    66930777, 66930663
-                </div>
-                <div style="display: inline-block; margin: 0 7px 0 7px;">
-                    پست الکترونیکی: info@tabiat.com
-                    <br/>
-                    وب سایت: www.tabiat.com
-                </div>
-            </div>
         </div>
     </div>
     <!-- /FOOTER -->
