@@ -158,7 +158,7 @@
 
 .scroll.navbar-brand.scroll {
     background: url('../../img/logo/tabiat/logo.png') !important;
-    background-size: contain !important;
+    background-size: 90% !important;
     background-repeat: no-repeat !important;
 }
 
@@ -172,4 +172,8 @@
 
 .main-with-sub>a:first-of-type:after {
     display: none !important;
+}
+
+.no-padding {
+    padding: 0;
 }

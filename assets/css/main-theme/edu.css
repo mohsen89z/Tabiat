@@ -407,15 +407,21 @@ ul.inline-items {
     height: 410px;
     float: right;
     margin-top: -50px;
-    width: 50vw
 }
 
-.AboutImg {
+.CDCoverImg {
     background: linear-gradient(rgba(31, 142, 91, 0.2), rgba(31, 142, 91, 1)),
     url("../../img/edu/slides/01.jpg");
     background-size: 100% 140%;
     padding: 0px;
     color: #ffffff;
+}
+
+.AboutImg {
+    background: linear-gradient(rgba(31, 142, 91, 0.2), rgba(31, 142, 91, 1)),
+    url("../../img/edu/slides/about-slide.jpg");
+    background-size: 100% 140%;
+    padding: 0px;
 }
 
 @media (max-width: 768px) {
@@ -430,6 +436,9 @@ ul.inline-items {
 
 .navbar-trn .navbar-text, .navbar-trn .navbar-nav > li > a {
     color: #000 !important;
+}
+.navbar-trn .navbar-text, .navbar-trn .navbar-nav > li:hover > a {
+    color: #FFF !important;
 }
 
 .navbar-trn .navbar-nav > .open > a, .navbar-trn .navbar-nav > .open > a:hover, .navbar-trn .navbar-nav > .open > a:focus, .navbar-trn .navbar-nav > .disabled > a, .navbar-trn .navbar-nav > .disabled > a:hover, .navbar-trn .navbar-nav > .disabled > a:focus, .navbar-trn .navbar-nav > .active > a, .navbar-trn .navbar-nav > .active > a:hover, .navbar-trn .navbar-nav > .active > a:focus {
@@ -597,4 +606,99 @@ input.input-block-level {
 
 .footer .dark-icons i:hover {
     color: #1F8E5E;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
+    background-color: #157A47 !important;
+    background-image: -moz-linear-gradient(top,#167A48,#166948) !important;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#167A48),to(#166948)) !important;
+    background-image: -webkit-linear-gradient(top,#167A48,#166948) !important;
+    background-image: -o-linear-gradient(top,#167A48,#166948) !important;
+    background-image: linear-gradient(to bottom,#167A48,#166948) !important;
+}
+
+#carousel-wrapper,
+#carousel figure {
+    height: 100px;
+    line-height: 100px;
+}
+#carousel figure:nth-of-type(1) { -webkit-transform: rotateX(0deg) translateZ(86px); }
+#carousel figure:nth-of-type(2) { -webkit-transform: rotateX(60deg) translateZ(86px); }
+#carousel figure:nth-of-type(3) { -webkit-transform: rotateX(120deg) translateZ(86px); }
+#carousel figure:nth-of-type(4) { -webkit-transform: rotateX(180deg) translateZ(86px); }
+#carousel figure:nth-of-type(5) { -webkit-transform: rotateX(240deg) translateZ(86px); }
+#carousel figure:nth-of-type(6) { -webkit-transform: rotateX(300deg) translateZ(86px); }
+#carousel[data-state="1"] figure:nth-of-type(1),
+#carousel[data-state="2"] figure:nth-of-type(2),
+#carousel[data-state="3"] figure:nth-of-type(3),
+#carousel[data-state="4"] figure:nth-of-type(4),
+#carousel[data-state="5"] figure:nth-of-type(5),
+#carousel[data-state="6"] figure:nth-of-type(6) { opacity: 1; }
+
+#carousel-wrapper {
+    /*position: absolute;*/
+    /*top: 30%;*/
+    /*left: 25%;*/
+    /*width: 50%;*/
+    /*text-align: center;*/
+    text-align: right;
+    -webkit-perspective: 1100px;
+    -moz-perspective: 1100px;
+    -o-perspective: 1100px;
+    perspective: 1100px;
+}
+
+#carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    webkit-transition: all 2.5s;
+    -moz-transition: all 2.5s;
+    -o-transition: all 2.5s;
+    transition: all 2.5s;
+}
+
+#carousel figure {
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    /*text-align: center;*/
+    text-align: right;
+    opacity: .2;
+    webkit-transition: all 2.5s;
+    -moz-transition: all 2.5s;
+    -o-transition: all 2.5s;
+    transition: all 2.5s;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding-right: 55px;
+}
+
+#carousel figure span:nth-child(1) {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-variant: small-caps;
+    color: #04B567;
+}
+
+#carousel figure span:nth-child(2) {
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.navbar .nav>li>a {
+    text-shadow: 0 1px 0 #848484 !important;
+   height: 70px;
+    padding-top: 25px !important;
 }

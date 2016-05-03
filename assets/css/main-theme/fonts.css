@@ -155,6 +155,16 @@
     src: url(../../fonts/plugins/Iran-sans/IRAN-Sans-Ultra-Light-3.ttf);
 }
 
+@font-face {
+    font-family: RoyaWeb-Bold;
+    src: url(../../fonts/plugins/Roya/RoyaWeb-Bold.woff);
+}
+
+@font-face {
+    font-family: RoyaWeb-Regular;
+    src: url(../../fonts/plugins/Roya/RoyaWeb-Regular.woff);
+}
+
 /*ROBOTO FONTS CLASSES*/
 
 .Roboto-BlackItalic{
@@ -271,6 +281,14 @@
 
 .Iran-Sans-Ultra-Light-3 {
     font-family: iran-sans-ultra-light-3;
+}
+
+.RoyaWeb-Regular {
+    font-family: RoyaWeb-Regular;
+}
+
+.RoyaWeb-Bold {
+    font-family: RoyaWeb-Bold;
 }
 
 /*COLORS*/

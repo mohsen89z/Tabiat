@@ -243,6 +243,10 @@
     background: #DADEE2 !important;
 }
 
+.bg-lightgray3 {
+    background: #F2F8F6 !important;
+}
+
 .bg-dark .lg-title {
     color: #eceff1;
 }

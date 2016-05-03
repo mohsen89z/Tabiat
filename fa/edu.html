@@ -87,9 +87,10 @@
                 <div class="col-md-6"></div>
                 <div class="col-md-4">
                     <ul class="icons-list center-block">
-                        <li>
+                        <li class="hidden-xs hidden-sm">
                             <form action="/" method="post">
-                                <input name="searchword" class="input-block-level" id="mod-search-searchword" type="text" placeholder="جستجو...">
+                                <input name="searchword" class="input-block-level" id="mod-search-searchword"
+                                       type="text" placeholder="جستجو...">
                             </form>
                         </li>
                         <li>
@@ -141,7 +142,7 @@
                 </a>
             </div>
 
-            <div class="collapse navbar-collapse Iran-Sans-Medium pull-right" id="bs-navbar-collapse-1">
+            <div class="collapse navbar-collapse RoyaWeb-Regular pull-right" id="bs-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right" id="nav">
                     <li class="dropdown pull-right active">
                         <a href="#sTop">
@@ -351,16 +352,85 @@
         </div>
     </div>
 
-    <!-- NORMAL TRIP SECTION -->
+    <!-- HISTORY SECTION -->
     <span class="breakPoint" id="sHistoryContainer"></span>
     <div id="History" align="center">
-        <div class="section partner bg-brown" margin="auto">
-            <div id="HistoryImg"></div>
-            <iframe id="HistoryFrame" src="../assets/frame/fa/historyRoller.html"></iframe>
+        <div class="section partner bg-brown White-Color RoyaWeb-Regular row" margin="auto">
+            <div id="HistoryImg" class="col-md-5"></div>
+            <!--<iframe id="HistoryFrame" src="../assets/frame/fa/historyRoller.html"></iframe>-->
+            <div id="carousel-wrapper" class="col-md-7">
+                <div id="carousel" data-state="1" style="-webkit-transform: rotateX(0deg)">
+                    <figure>
+                        <span>
+                        10.دی.1394
+                        </span>
+                        <span>
+                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت
+                        </span>
+                    </figure>
+                    <figure>
+                        <span>
+                        10.دی.1394
+                        </span>
+                        <span>
+                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت
+                        </span>
+                    </figure>
+                    <figure>
+                        <span>
+                        10.دی.1394
+                        </span>
+                        <span>
+                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت
+                        </span>
+                    </figure>
+                    <figure>
+                        <span>
+                        10.دی.1394
+                        </span>
+                        <span>
+                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت
+                        </span>
+                    </figure>
+                    <figure>
+                        <span>
+                        10.دی.1394
+                        </span>
+                        <span>
+                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت
+                        </span>
+                    </figure>
+                    <figure>
+                        <span>
+                        10.دی.1394
+                        </span>
+                        <span>
+                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت
+                        </span>
+                    </figure>
+                </div>
+            </div>
+            <script>
+                var historyCounter = 6;
+                var increment = 0;
+                var carousel = $('#carousel');
+
+                setInterval(function () {
+                    increment++;
+                    carousel.css({
+                        '-webkit-transform': 'rotateX(' + (increment * -60) + 'deg)'
+                    });
+                    var pastSix = 0;
+                    if (increment > historyCounter) {
+                        increment
+                    }
+                    carousel.attr('data-state', (increment % historyCounter) + 1);
+                }, 2000);
+            </script>
         </div>
     </div>
 
-    <!-- OUR TEAM -->
+    <!-- Squares -->
     <div class="section-xlg container">
         <div id="teamSlider" class="owl-carousel Iran-Sans">
             <div class="item">
@@ -595,7 +665,7 @@
     </div>
 
     <!--CD COVER-->
-    <div class="AboutImg section-xlg">
+    <div class="CDCoverImg section-xlg">
         <span class="breakPoint" id="cdCover"></span>
         <div class="container section row wow fadeInUpBig lazy animated">
             <div class="col-md-2">
@@ -640,11 +710,11 @@
     </div>
 
     <!--ABOUT US-->
-    <div class="section-xlg">
+    <div class="AboutImg bg-lightgray3 section-xlg">
         <span class="breakPoint" id="aboutUs"></span>
         <div class="container section row">
             <fieldset class="wow fadeInUpBig lazy animated Iran-Sans">
-                <legend class="Tabiat-Green Iran-Sans-Bold-3">درباره ما</legend>
+                <legend class="Tabiat-Green Iran-Sans-Bold-3 Black-Color">درباره ما</legend>
                 <screen-text>
                     موسسه طبیعت از سال 1376 فعالیت خود را آغاز و در فروردین 1377 با انتشار ماهنامه ی طبیعت با هدف "لزوم
                     ترویج فرهنگ طبیعت" فعالیت خودرا پی گرفت.
@@ -670,7 +740,7 @@
     </div>
 
     <!--OUR PARTNERS-->
-    <div class="section-xlg">
+    <div class="section-xlg no-padding">
         <span class="breakPoint" id="Sponsers"></span>
         <div class="container section">
             <div style="text-align: center;">
