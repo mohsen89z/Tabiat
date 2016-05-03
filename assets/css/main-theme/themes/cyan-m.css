@@ -235,6 +235,10 @@
     background: #3E3B36 !important;
 }
 
+.bg-orange {
+    background: rgb(107, 42, 19) !important;
+}
+
 .bg-lightgray {
     background: #F0F5F9 !important;
 }

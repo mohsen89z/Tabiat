@@ -402,7 +402,8 @@ ul.inline-items {
 }
 
 #HistoryImg {
-    background: url("../../img/edu/slides/history-slide.png");
+    background: linear-gradient(to right, #3E3B36 0%, rgba(255, 255, 255, 0) 50%,#3E3B36 100%),
+    url("../../img/edu/slides/history-slide.jpg");
     background-size: cover;
     height: 410px;
     float: right;
@@ -437,6 +438,7 @@ ul.inline-items {
 .navbar-trn .navbar-text, .navbar-trn .navbar-nav > li > a {
     color: #000 !important;
 }
+
 .navbar-trn .navbar-text, .navbar-trn .navbar-nav > li:hover > a {
     color: #FFF !important;
 }
@@ -574,7 +576,6 @@ img.footer-tabligh:last-of-type {
     }
 }
 
-
 .navbar-height .tabiat-login {
     opacity: 1;
     background: rgb(86, 85, 88);
@@ -596,25 +597,25 @@ img.footer-tabligh:last-of-type {
     color: #ffffff;
 }
 
-.tabiat-login .icons-list , .tabiat-login .icons-list form , .tabiat-login .icons-list form input {
+.tabiat-login .icons-list, .tabiat-login .icons-list form, .tabiat-login .icons-list form input {
     margin: 0;
 }
 
 input.input-block-level {
-     min-height: 0px !important;
+    min-height: 0px !important;
 }
 
 .footer .dark-icons i:hover {
     color: #1F8E5E;
 }
 
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
     background-color: #157A47 !important;
-    background-image: -moz-linear-gradient(top,#167A48,#166948) !important;
-    background-image: -webkit-gradient(linear,0 0,0 100%,from(#167A48),to(#166948)) !important;
-    background-image: -webkit-linear-gradient(top,#167A48,#166948) !important;
-    background-image: -o-linear-gradient(top,#167A48,#166948) !important;
-    background-image: linear-gradient(to bottom,#167A48,#166948) !important;
+    background-image: -moz-linear-gradient(top, #167A48, #166948) !important;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#167A48), to(#166948)) !important;
+    background-image: -webkit-linear-gradient(top, #167A48, #166948) !important;
+    background-image: -o-linear-gradient(top, #167A48, #166948) !important;
+    background-image: linear-gradient(to bottom, #167A48, #166948) !important;
 }
 
 #carousel-wrapper,
@@ -622,18 +623,39 @@ input.input-block-level {
     height: 100px;
     line-height: 100px;
 }
-#carousel figure:nth-of-type(1) { -webkit-transform: rotateX(0deg) translateZ(86px); }
-#carousel figure:nth-of-type(2) { -webkit-transform: rotateX(60deg) translateZ(86px); }
-#carousel figure:nth-of-type(3) { -webkit-transform: rotateX(120deg) translateZ(86px); }
-#carousel figure:nth-of-type(4) { -webkit-transform: rotateX(180deg) translateZ(86px); }
-#carousel figure:nth-of-type(5) { -webkit-transform: rotateX(240deg) translateZ(86px); }
-#carousel figure:nth-of-type(6) { -webkit-transform: rotateX(300deg) translateZ(86px); }
+
+#carousel figure:nth-of-type(1) {
+    -webkit-transform: rotateX(0deg) translateZ(86px);
+}
+
+#carousel figure:nth-of-type(2) {
+    -webkit-transform: rotateX(60deg) translateZ(86px);
+}
+
+#carousel figure:nth-of-type(3) {
+    -webkit-transform: rotateX(120deg) translateZ(86px);
+}
+
+#carousel figure:nth-of-type(4) {
+    -webkit-transform: rotateX(180deg) translateZ(86px);
+}
+
+#carousel figure:nth-of-type(5) {
+    -webkit-transform: rotateX(240deg) translateZ(86px);
+}
+
+#carousel figure:nth-of-type(6) {
+    -webkit-transform: rotateX(300deg) translateZ(86px);
+}
+
 #carousel[data-state="1"] figure:nth-of-type(1),
 #carousel[data-state="2"] figure:nth-of-type(2),
 #carousel[data-state="3"] figure:nth-of-type(3),
 #carousel[data-state="4"] figure:nth-of-type(4),
 #carousel[data-state="5"] figure:nth-of-type(5),
-#carousel[data-state="6"] figure:nth-of-type(6) { opacity: 1; }
+#carousel[data-state="6"] figure:nth-of-type(6) {
+    opacity: 1;
+}
 
 #carousel-wrapper {
     /*position: absolute;*/
@@ -661,6 +683,7 @@ input.input-block-level {
     -moz-transition: all 2.5s;
     -o-transition: all 2.5s;
     transition: all 2.5s;
+    margin-top: 85px;
 }
 
 #carousel figure {
@@ -697,8 +720,8 @@ input.input-block-level {
     font-weight: lighter;
 }
 
-.navbar .nav>li>a {
+.navbar .nav > li > a {
     text-shadow: 0 1px 0 #848484 !important;
-   height: 70px;
+    height: 70px;
     padding-top: 25px !important;
 }
