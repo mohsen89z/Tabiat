@@ -177,9 +177,9 @@
                     <li class="main-with-sub dropdown-submenu pull-right">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             تماس با ما
-                            <b class="caret"></b>
+                            <b class="caret hidden-xs hidden-sm"></b>
                         </a>
-                        <ul class="dropdown-menu first-sub-menu multi-level">
+                        <ul class="dropdown-menu first-sub-menu multi-level hidden-xs hidden-sm">
                             <li class="pull-right"><a href="#">
                                 بی زیر منو
                             </a></li>
@@ -359,7 +359,7 @@
             <div id="HistoryImg" class="col-md-5"></div>
             <!--<iframe id="HistoryFrame" src="../assets/frame/fa/historyRoller.html"></iframe>-->
             <div id="carousel-wrapper" class="col-md-7">
-                <div id="carousel" data-state="1" style="-webkit-transform: rotateX(0deg)">
+                <div id="carousel" class="row" data-state="1" style="-webkit-transform: rotateX(0deg)">
                     <figure>
                         <span>
                         10.دی.1394
@@ -420,19 +420,25 @@
                     carousel.css({
                         '-webkit-transform': 'rotateX(' + (increment * -60) + 'deg)'
                     });
+                    carousel.css({
+                        '-ms-transform': 'rotateX(' + (increment * -60) + 'deg)'
+                    });
+                    carousel.css({
+                        'transform': 'rotateX(' + (increment * -60) + 'deg)'
+                    });
                     var pastSix = 0;
                     if (increment > historyCounter) {
                         increment
                     }
                     carousel.attr('data-state', (increment % historyCounter) + 1);
-                }, 2000);
+                }, 4000);
             </script>
         </div>
     </div>
 
     <!-- Squares -->
     <div class="section-xlg container">
-        <div id="teamSlider" class="owl-carousel Iran-Sans">
+        <div id="squersSlider" class="owl-carousel owl-theme Iran-Sans">
             <div class="item">
                 <div class="profile-circle fadeIn wow" data-wow-delay="0.2s">
                     <div class="hover-content ">
@@ -847,6 +853,7 @@
                         <li>
                             <a>
                                 88103928, 88103927
+                                <br />
                                 66930777, 66930663
                             </a>
                         </li>
@@ -866,9 +873,11 @@
                     <h3>
                         تبلیغات
                     </h3>
-                    <img class="footer-tabligh" src="../assets/img/edu/adv/adv-000.jpg"/>
-                    <img class="footer-tabligh" src="../assets/img/edu/adv/adv-002.jpg"/>
-                    <img class="footer-tabligh" src="../assets/img/edu/adv/adv-002.jpg"/>
+                    <div id="tablighSlider" class="owl-carousel owl-theme owl-loaded owl-responsive-1000">
+                        <img class="footer-tabligh" src="../assets/img/edu/adv/adv-000.jpg"/>
+                        <img class="footer-tabligh" src="../assets/img/edu/adv/adv-002.jpg"/>
+                        <img class="footer-tabligh" src="../assets/img/edu/adv/adv-002.jpg"/>
+                    </div>
                 </div>
             </div>
             <div class="space-sm"></div>
@@ -935,8 +944,6 @@
 <script src="../assets/js/plugins/awesome-work.js"></script>
 <script src="../assets/js/plugins/jquery.modalEffects.js"></script>
 <script src="../assets/js/plugins/cssParser.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-<script src="../assets/js/plugins/snazzy-maps.js"></script>
 
 <script src="../assets/js/plugins.js"></script>
 <script src="../assets/js/custom.js"></script>
@@ -957,7 +964,7 @@
 
         //Custom JS Init
         Custom.init();
-        Custom.loadMoreNews();
+//        Custom.loadMoreNews();
         Custom.mobileMenuAnimation();
     });
 </script>

@@ -165,6 +165,11 @@
     src: url(../../fonts/plugins/Roya/RoyaWeb-Regular.woff);
 }
 
+@font-face {
+    font-family: BYekan;
+    src: url(../../fonts/plugins/Byekan/BYekan.woff);
+}
+
 /*ROBOTO FONTS CLASSES*/
 
 .Roboto-BlackItalic{
@@ -289,6 +294,10 @@
 
 .RoyaWeb-Bold {
     font-family: RoyaWeb-Bold;
+}
+
+.BYekan {
+    font-family: BYekan;
 }
 
 /*COLORS*/

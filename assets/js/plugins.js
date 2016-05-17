@@ -162,6 +162,42 @@ var Plugins = function($) {
             items: 4
         });
 
+        $("#tablighSlider").owlCarousel({
+            autoPlay: 4500, //Set AutoPlay to 3 seconds
+            lazyLoad: true,
+            items: 1,
+            stopOnHover: true,
+            itemsDesktop: [1200, 3],
+            itemsDesktopSmall: [992, 2],
+            itemsTablet: [768, 2],
+            itemsMobile: [650, 1],
+            navigation:true,
+            navigationText: [
+                "<span class='fa fa-chevron-circle-left'></span>",
+                "<span class='fa fa-chevron-circle-right'></span>"
+            ],
+            pagination:false,
+            responsiveRefreshRate : 200
+        });
+
+        $("#squersSlider").owlCarousel({
+            autoPlay: 6000, //Set AutoPlay to 4 seconds
+            lazyLoad: true,
+            items: 4,
+            stopOnHover: true,
+            itemsDesktop: [1200, 3],
+            itemsDesktopSmall: [992, 2],
+            itemsTablet: [768, 2],
+            itemsMobile: [650, 1],
+            navigation:true,
+            navigationText: [
+                "<span class='fa fa-chevron-circle-left'></span>",
+                "<span class='fa fa-chevron-circle-right'></span>"
+            ],
+            pagination:false,
+            responsiveRefreshRate : 200
+        });
+
         //Our team slider
         $("#teamSlider").owlCarousel({
             autoPlay: false,

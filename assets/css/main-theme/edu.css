@@ -402,7 +402,7 @@ ul.inline-items {
 }
 
 #HistoryImg {
-    background: linear-gradient(to right, #3E3B36 0%, rgba(255, 255, 255, 0) 50%,#3E3B36 100%),
+    background: linear-gradient(to right, #3E3B36 0%, rgba(255, 255, 255, 0) 50%, #3E3B36 100%),
     url("../../img/edu/slides/history-slide.jpg");
     background-size: cover;
     height: 410px;
@@ -626,26 +626,38 @@ input.input-block-level {
 
 #carousel figure:nth-of-type(1) {
     -webkit-transform: rotateX(0deg) translateZ(86px);
+    -ms-transform: rotateX(0deg) translateZ(86px);
+    transform: rotateX(0deg) translateZ(86px);
 }
 
 #carousel figure:nth-of-type(2) {
     -webkit-transform: rotateX(60deg) translateZ(86px);
+    -ms-transform: rotateX(60deg) translateZ(86px);
+    transform: rotateX(60deg) translateZ(86px);
 }
 
 #carousel figure:nth-of-type(3) {
     -webkit-transform: rotateX(120deg) translateZ(86px);
+    -ms-transform: rotateX(120deg) translateZ(86px);
+    transform: rotateX(120deg) translateZ(86px);
 }
 
 #carousel figure:nth-of-type(4) {
     -webkit-transform: rotateX(180deg) translateZ(86px);
+    -ms-transform: rotateX(180deg) translateZ(86px);
+    transform: rotateX(180deg) translateZ(86px);
 }
 
 #carousel figure:nth-of-type(5) {
     -webkit-transform: rotateX(240deg) translateZ(86px);
+    -ms-transform: rotateX(240deg) translateZ(86px);
+    transform: rotateX(240deg) translateZ(86px);
 }
 
 #carousel figure:nth-of-type(6) {
     -webkit-transform: rotateX(300deg) translateZ(86px);
+    -ms-transform: rotateX(300deg) translateZ(86px);
+    transform: rotateX(300deg) translateZ(86px);
 }
 
 #carousel[data-state="1"] figure:nth-of-type(1),
@@ -679,10 +691,10 @@ input.input-block-level {
     -moz-transform-style: preserve-3d;
     -o-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    webkit-transition: all 2.5s;
-    -moz-transition: all 2.5s;
-    -o-transition: all 2.5s;
-    transition: all 2.5s;
+    webkit-transition: all 3.5s;
+    -moz-transition: all 3.5s;
+    -o-transition: all 3.5s;
+    transition: all 3.5s;
     margin-top: 85px;
 }
 
@@ -696,15 +708,22 @@ input.input-block-level {
     /*text-align: center;*/
     text-align: right;
     opacity: .2;
-    webkit-transition: all 2.5s;
-    -moz-transition: all 2.5s;
-    -o-transition: all 2.5s;
-    transition: all 2.5s;
+    webkit-transition: all 3.5s;
+    -moz-transition: all 3.5s;
+    -o-transition: all 3.5s;
+    transition: all 3.5s;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
     padding-right: 55px;
+}
+
+@media (max-width: 800px) {
+    #carousel figure {
+        width: 350px !important;
+        line-height: 25px !important;
+    }
 }
 
 #carousel figure span:nth-child(1) {
@@ -724,4 +743,51 @@ input.input-block-level {
     text-shadow: 0 1px 0 #848484 !important;
     height: 70px;
     padding-top: 25px !important;
+}
+
+#squersSlider .owl-controls .owl-buttons .owl-prev {
+    float: left;
+    position: relative;
+    top: -200px;
+    right: 20px;
+}
+
+#squersSlider .owl-controls .owl-buttons .owl-next {
+    float: right;
+    position: relative;
+    top: -200px;
+    left: 20px;
+}
+
+#tablighSlider .owl-controls .owl-buttons .owl-prev {
+    float: left;
+    position: relative;
+    top: -60px;
+    right: 20px;
+}
+
+#tablighSlider .owl-controls .owl-buttons .owl-next {
+    float: right;
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: RoyaWeb-Regular !important;
+}
+
+@media (max-width: 800px) {
+    .navbar .nav > li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar .nav > li a {
+        width: 100%;
+    }
+}
+
+.dropdown-submenu>a:after {
+    border-right-color: #771E1E !important;
 }
