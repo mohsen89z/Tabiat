@@ -401,9 +401,72 @@ ul.inline-items {
     width: 40vw;
 }
 
+@keyframes HistoryImageChanger {
+
+    /*1st Step*/
+    0% {opacity: 0}
+    1% {
+        background: linear-gradient(to right, #3E3B36 0%, rgba(255, 255, 255, 0) 50%, #3E3B36 100%),
+        url("../../img/edu/slides/history/1.jpg");
+        background-size: cover;
+    }
+    2% {opacity: 1}
+
+    /*2nd Step*/
+    15% {opacity: 0}
+    16% {
+        background: linear-gradient(to right, #3E3B36 0%, rgba(255, 255, 255, 0) 50%, #3E3B36 100%),
+        url("../../img/edu/slides/history/2.jpg");
+        background-size: cover;
+    }
+    17% {opacity: 1}
+
+    /*3rd Step*/
+    31% {opacity: 0}
+    32% {
+        background: linear-gradient(to right, #3E3B36 0%, rgba(255, 255, 255, 0) 50%, #3E3B36 100%),
+        url("../../img/edu/slides/history/3.jpg");
+        background-size: cover;
+    }
+    33% {opacity: 1}
+
+    /*4th Step*/
+    47% {opacity: 0}
+    48% {
+        background: linear-gradient(to right, #3E3B36 0%, rgba(255, 255, 255, 0) 50%, #3E3B36 100%),
+        url("../../img/edu/slides/history/4.jpg");
+        background-size: cover;
+    }
+    49% {opacity: 1}
+
+    /*5th Step*/
+    63% {opacity: 0}
+    64% {
+        background: linear-gradient(to right, #3E3B36 0%, rgba(255, 255, 255, 0) 50%, #3E3B36 100%),
+        url("../../img/edu/slides/history/5.jpg");
+        background-size: cover;
+    }
+    65% {opacity: 1}
+
+    /*6th Step*/
+    79% {opacity: 0}
+    80% {
+        background: linear-gradient(to right, #3E3B36 0%, rgba(255, 255, 255, 0) 50%, #3E3B36 100%),
+        url("../../img/edu/slides/history/6.jpg");
+        background-size: cover;
+    }
+    81% {opacity: 1}
+}
+
 #HistoryImg {
     background: linear-gradient(to right, #3E3B36 0%, rgba(255, 255, 255, 0) 50%, #3E3B36 100%),
-    url("../../img/edu/slides/history-slide.jpg");
+    url("../../img/edu/slides/history/1.jpg");
+
+    animation-name: HistoryImageChanger;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 24s;
+    animation-direction: alternate;
     background-size: cover;
     height: 410px;
     float: right;
