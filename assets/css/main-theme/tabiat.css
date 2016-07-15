@@ -40,18 +40,25 @@
 
 .trip-title {
     font-size: 2.4em;
-    margin-bottom: 15vh;
+    margin-bottom: 12vh;
+    margin-top: 20px;
+}
+
+
+#Trip .row, #newsFeed.row {
+    margin-left: 0px !important;
 }
 
 .trip-title::after {
-    width: 50%;
+    width: 70%;
     content: "";
     display: block;
     position: relative;
-    left: 25%;
+    left: 35%;
+    top: 8px;
     -webkit-transition: width 0.15s ease;
     transition: width 0.15s ease;
-    border-bottom: 2px solid #00bcd4;
+    border-bottom: 3px solid #00bcd4;
     -webkit-transform: translate(-50%);
     -ms-transform: translate(-50%);
     transform: translate(-50%);
@@ -78,7 +85,7 @@
 
 .trip-list {
     width: 25vw;
-    height: 30vh;
+    height: 38vh;
     display: inline-block;
     background: #676767;
     border: 1px solid #000;
@@ -90,6 +97,9 @@
     -webkit-transition: .5s ease-in-out;
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
+
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 .trip-list:hover {
@@ -103,6 +113,41 @@
 }
 
 .trip-list .trip-title {
+    font-size: 2.4em;
+    margin-bottom: 3vh;
+    margin-top: 12vh;
+
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.trip-list .trip-price {
+    color: #1dbb9b;
+    position: absolute;
+    /* top: 5px; */
+    height: 25px;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    background: #FFF;
+    font-size: 1.4em;
+}
+
+.trip-list .trip-icos {
+    bottom: 1px;
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.trip-list:hover .trip-price, .trip-list:hover .trip-icos {
+    opacity: 100;
     -webkit-transition: .5s ease-in-out;
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
@@ -118,42 +163,52 @@
 
 .ftrip-no1 {
     background: url('../../img/slides/780/FT-1.jpg') no-repeat !important;
+    background-size: cover !important;
 }
 
 .ftrip-no2 {
     background: url('../../img/slides/780/FT-2.jpg') no-repeat !important;
+    background-size: cover !important;
 }
 
 .ftrip-no3 {
     background: url('../../img/slides/780/FT-3.jpg') no-repeat !important;
+    background-size: cover !important;
 }
 
 .ftrip-no4 {
     background: url('../../img/slides/780/FT-4.jpg') no-repeat !important;
+    background-size: cover !important;
 }
 
 .lTrip-no1-1 {
     background: url('../../img/slides/780/TL-1.jpg') no-repeat !important;
+    background-size: cover !important;
 }
 
 .lTrip-no1-2 {
     background: url('../../img/slides/780/TL-2.jpg') no-repeat !important;
+    background-size: cover !important;
 }
 
 .lTrip-no1-3 {
     background: url('../../img/slides/780/TL-3.jpg') no-repeat !important;
+    background-size: cover !important;
 }
 
 .lTrip-no2-1 {
     background: url('../../img/slides/780/TL-4.jpg') no-repeat !important;
+    background-size: cover !important;
 }
 
 .lTrip-no2-2 {
     background: url('../../img/slides/780/TL-5.jpg') no-repeat !important;
+    background-size: cover !important;
 }
 
 .lTrip-no2-3 {
     background: url('../../img/slides/780/TL-6.jpg') no-repeat !important;
+    background-size: cover !important;
 }
 
 .scroll.navbar-brand.scroll {
@@ -176,4 +231,142 @@
 
 .no-padding {
     padding: 0;
+}
+
+#sSearchContainer + .section-xlg ,#sNewsContainer + .section-xlg {
+    padding: 0;
+}
+
+#sSearchContainer + .section-xlg .section {
+    padding: 10px 0 0 0;
+}
+
+#sNewsContainer + .section-xlg {
+    background: url('../../img/slides/feed.jpg') no-repeat !important;
+    height: 65vh;
+    background-position: -180px -20px !important;
+    background-size: 110% 110% !important;
+}
+
+a.eduLinks {
+    color: #cccccc !important;
+    font-size: 2em;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+a.eduLinks:hover {
+    color: #07c19a !important;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+a.eduLinks:after {
+    content: "|";
+}
+
+a.eduLinks:last-child:after {
+    content: "";
+}
+
+a.torLinks {
+    color: #9ba4ad !important;
+    font-size: 1.4em;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+a.torLinks:hover {
+    color: #1bb994 !important;
+    font-size: 1.6em;
+    font-weight: 700;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+a.torLinks:after {
+    content: "|";
+}
+
+a.torLinks:last-child:after {
+    content: "";
+}
+
+.linksImg {
+    height: 100px;
+    margin: 0 1.4% 0 1.4%;
+    border-radius: 3px;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.linksImg:hover {
+    -webkit-filter: grayscale(1) !important;
+    -moz-filter: grayscale(1) !important;
+    -ms-filter: grayscale(100%) !important;
+    filter: grayscale(1) !important;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.links_1_1 {
+    background: url("../../img/slides/780/links/11.jpg") no-repeat;
+    background-size: cover;
+}
+
+.links_1_2 {
+    background: url("../../img/slides/780/links/12.jpg") no-repeat;
+    background-size: cover;
+}
+
+.links_1_3 {
+    background: url("../../img/slides/780/links/13.jpg") no-repeat;
+    background-size: cover;
+}
+
+.links_1_4 {
+    background: url("../../img/slides/780/links/14.jpg") no-repeat;
+    background-size: cover;
+}
+
+.links_1_5 {
+    background: url("../../img/slides/780/links/15.jpg") no-repeat;
+    background-size: cover;
+}
+
+.links_2_1 {
+    background: url("../../img/slides/780/links/21.jpg") no-repeat;
+    background-size: cover;
+}
+
+.links_2_2 {
+    background: url("../../img/slides/780/links/22.jpg") no-repeat;
+    background-size: cover;
+}
+
+.links_2_3 {
+    background: url("../../img/slides/780/links/23.jpg") no-repeat;
+    background-size: cover;
+}
+
+.links_2_4 {
+    background: url("../../img/slides/780/links/24.jpg") no-repeat;
+    background-size: cover;
+}
+
+.links_2_5 {
+    background: url("../../img/slides/780/links/25.jpg") no-repeat;
+    background-size: cover;
+}
+
+.feed-form {
+    height: 100%;
+    padding-top: 100px;
+    background: rgba(255,255,255, 0.7) !important;
 }

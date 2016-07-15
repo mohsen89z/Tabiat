@@ -35,14 +35,38 @@
     <link rel="stylesheet" href="../assets/css/plugins/owl.carousel.css">
     <link rel="stylesheet" href="../assets/css/plugins/font-awesome.css">
     <link rel="stylesheet" href="../assets/css/plugins/devicons.css">
-    <link rel="stylesheet" href="../assets/css/main-theme/homapay.css">
+    <link rel="stylesheet" href="../assets/css/main-theme/edu.css">
     <link rel="stylesheet" href="../assets/css/main-theme/fonts.css">
     <link rel="stylesheet" href="../assets/css/main-theme/fa.css">
     <link rel="stylesheet" href="../assets/css/main-theme/tabiat.css">
 
     <link rel="stylesheet" href="../assets/css/main-theme/bootstrap.min.css">
-    <script src="../assets/js/bootstrap.min.js"></script>
     <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/CircleHoverEffects/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/CircleHoverEffects/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/CircleHoverEffects/style5.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'/>
+    <script type="text/javascript" src="../assets/js/modernizr.custom.79639.js"></script>
+
+    <link rel="stylesheet" href="../assets/css/inner/modal.css" type="text/css">
+    <link rel="stylesheet" href="../assets/css/inner/k2.css" type="text/css">
+    <link rel="stylesheet" href="../assets/css/inner/bootstrap.min.rtl.css" type="text/css">
+    <link rel="stylesheet" href="../assets/css/inner/bootstrap-responsive.min.rtl.css" type="text/css">
+    <link rel="stylesheet" href="../assets/css/inner/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="../assets/css/inner/mobile-menu.css" type="text/css">
+    <link rel="stylesheet" href="../assets/css/inner/template.css" type="text/css">
+    <link rel="stylesheet" href="../assets/css/inner/preset5.css" type="text/css">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//cdn.rawgit.com/morteza/bootstrap-rtl/v3.3.4/dist/css/bootstrap-rtl.min.css">
+
+    <link rel="stylesheet" href="../assets/css/bootstrap/bootstrap-datepicker.min.css" type="text/css">
+    <script src="../assets/js/plugins/bootstrap-datepicker.min.js"></script>
+
 </head>
 
 <body>
@@ -62,48 +86,58 @@
 
     <!-- NAVIGATION -->
     <div class="navbar navbar-trn navbar-fixed-top navbar-height" role="navigation" id="navbarSettings">
-        <div class="container">
-            <div class="collapse navbar-collapse Iran-Sans-Medium" id="bs-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right" id="nav">
-                    <li class="dropdown">
-                        <a href="#sContact">
-                            ارتباط با ما
-                        </a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#sContact">
-                            تماس با ما
-                        </a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#sJoin">
-                            گالری
-                        </a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#sVision">
-                            تقویم سفر ها
-                        </a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#sWhat">
-                            سفر های خارجی
-                        </a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#sStory">
-                            سفر های داخلی
-                        </a>
-                    </li>
-                    <li class="dropdown active">
-                        <a href="#sTop">
-                            صفحه ی اصلی
-                        </a>
-                    </li>
-                </ul>
+        <div class="tabiat-login">
+            <div class="container Iran-Sans row White-Color">
+                <div class="col-md-2">
+                    <i style="display: inline-block; margin-right: 10px;"
+                       class="Tabiat-Green icon-user"></i>
+                    حساب کاربری
+                </div>
+                <div class="col-md-6"></div>
+                <div class="col-md-4">
+                    <ul class="icons-list center-block">
+                        <li class="hidden-xs hidden-sm">
+                            <form action="/" method="post">
+                                <input name="searchword" class="input-block-level" id="mod-search-searchword"
+                                       type="text" placeholder="جستجو...">
+                            </form>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" title="Follow us">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" title="Follow us">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/" title="Follow us">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" title="Follow us">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com/" title="Follow us">
+                                <i class="fa fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" title="Follow us">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="navbar-header">
+        </div>
+        <div class="container">
+            <div class="navbar-header" style="max-height: 60px;">
                 <!-- Mobile Navigation -->
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -114,9 +148,47 @@
                 <!--/END Mobile Navigation -->
                 <!-- Logo/Name -->
                 <a class="scroll navbar-brand scroll" href="#sTop">
-                    <!--<span class="Iran-Sans-Bold-3">هما</span>-->
-                    <!--<span class="Iran-Sans-Light">پی</span>-->
                 </a>
+            </div>
+
+            <div class="collapse navbar-collapse RoyaWeb-Regular pull-right" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" id="nav">
+                    <li class="dropdown pull-right">
+                        <a href="#sTop">
+                            صفحه ی اصلی
+                        </a>
+                    </li>
+                    <li class="dropdown pull-right">
+                        <a href="#sStory">
+                            سفر های داخلی
+                        </a>
+                    </li>
+                    <li class="dropdown pull-right">
+                        <a href="#sWhat">
+                            سفر های خارجی
+                        </a>
+                    </li>
+                    <li class="dropdown pull-right">
+                        <a href="#sVision">
+                            تقویم سفر ها
+                        </a>
+                    </li>
+                    <li class="dropdown pull-right">
+                        <a href="#sJoin">
+                            گالری
+                        </a>
+                    </li>
+                    <li class="dropdown pull-right">
+                        <a href="#sContact">
+                            تماس با ما
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#sContact">
+                            ارتباط با ما
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -127,13 +199,60 @@
     <!--LANDING-->
 
     <span class="breakPoint" id="sLandingContainer"></span>
-    <div class="bg-lightblue section-xlg">
-        <div class="landing-wrapper Iran-Sans-Bold">
-            <h1>The First Dalahoo's <br/> short film competition</h1>
-            <span>A Suitcase of memories</span>
+    <div class="tp-banner-container">
+        <div class="tp-banner Iran-Sans">
+            <ul>
+                <!-- SLIDE 2 -->
+                <li data-transition="fade" data-slotamount="1" data-masterspeed="1000"
+                    data-thumb="../assets/img/edu/slides/03-tumb.jpg" data-saveperformance="off"
+                    data-title="به طبیعت خوش آمدید">
+                    <!-- MAIN IMAGE -->
+                    <img src="../assets/img/edu/slides/03.jpg" alt="Welcome to Influence"
+                         data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat">
+                    <!-- LAYERS -->
+                    <div class="tp-caption s-title-v2 customin stt  tp-resizeme" data-x="center" data-y="150"
+                         data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                         data-speed="1000" data-start="1100" data-easing="Power4.easeOut" data-splitin="none"
+                         data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
+                         data-endeasing="Power4.easeIn" data-endspeed="500"
+                         style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
+                        به طبیعت خوش آمدید.
+                    </div>
+                </li>
+                <!-- SLIDE 2 -->
+                <li data-transition="fade" data-slotamount="1" data-masterspeed="1000"
+                    data-thumb="../assets/img/edu/slides/04-tumb.jpg" data-saveperformance="off"
+                    data-title="به طبیعت خوش آمدید">
+                    <!-- MAIN IMAGE -->
+                    <img src="../assets/img/edu/slides/04.jpg" alt="Welcome to Influence"
+                         data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat">
+                    <!-- LAYERS -->
+                </li>
+                <!-- SLIDE 1 -->
+                <li data-transition="fade" data-slotamount="1" data-masterspeed="1000"
+                    data-thumb="../assets/img/edu/slides/01-tumb.jpg" data-saveperformance="off"
+                    data-title="دوره ی آموزش زبان">
+                    <!-- MAIN IMAGE -->
+                    <img src="../assets/img/edu/slides/01.jpg" alt="Welcome to Influence"
+                         data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat">
+                    <!-- LAYERS -->
+                </li>
+                <!-- SLIDE 2 -->
+                <li data-transition="fade" data-slotamount="1" data-masterspeed="1000"
+                    data-thumb="../assets/img/edu/slides/02-tumb.jpg" data-saveperformance="off"
+                    data-title="به طبیعت خوش آمدید">
+                    <!-- MAIN IMAGE -->
+                    <img src="../assets/img/edu/slides/02.jpg" alt="Welcome to Influence"
+                         data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat">
+                    <!-- LAYERS -->
+                </li>
+                <!-- TIMER -->
+                <div class="tp-bannertimer tp-bottom"></div>
+            </ul>
         </div>
-
     </div>
+
+
     <span class="breakPoint" id="sSearchContainer"/> </span>
     <div class="bg-dark2 section-xlg">
         <div class="container section Iran-Sans-Regular">
@@ -175,7 +294,6 @@
         </div>
     </div>
 
-
     <!-- FEATURED TRIP SECTION -->
     <span class="breakPoint" id="sFeaturedTripContainer"></span>
     <div id="FeaturedTrip" align="center">
@@ -184,10 +302,13 @@
                 <h2 class="big-title Iran-Sans-Medium Dark-Gray">
                     تور های برگزیده
                 </h2>
-                کوه های هزار دره ترکمن صحرا، آشنایی با فرهنگ و اقوام مردم ترکمن صحرا، مقبره ی خالد نبی،
-                گورستان سنگی،موسیقی ترکمنی،برج گنبد کاووس،بازدید از مرکز پرورش اسب، جزیره آشوراده، آبشار کبودال، بازار
-                بندر ترکمن،
-                قایق سواری دریای خزر
+                <div style="margin-bottom: 15px">
+                    کوه های هزار دره ترکمن صحرا، آشنایی با فرهنگ و اقوام مردم ترکمن صحرا، مقبره ی خالد نبی،
+                    گورستان سنگی،موسیقی ترکمنی،برج گنبد کاووس،بازدید از مرکز پرورش اسب، جزیره آشوراده، آبشار کبودال،
+                    بازار
+                    بندر ترکمن،
+                    قایق سواری دریای خزر
+                </div>
             </div>
 
             <div>
@@ -252,14 +373,28 @@
                 <h2 class="big-title Iran-Sans-Medium Dark-Gray">
                     با ما همسفر شوید
                 </h2>
-                کوه های هزار دره ترکمن صحرا، آشنایی با فرهنگ و اقوام مردم ترکمن صحرا، مقبره ی خالد نبی،
-                گورستان سنگی،موسیقی ترکمنی،برج گنبد کاووس،بازدید از مرکز پرورش اسب، جزیره آشوراده، آبشار کبودال، بازار
-                بندر ترکمن،
-                قایق سواری دریای خزر
+                <div>
+                    <a href="#" class="torLinks">
+                        تورهای یک روزه
+                    </a>
+                    <a href="#" class="torLinks">
+                        تور های چند روزه
+                    </a>
+                    <a href="#" class="torLinks">
+                        تورهای خارجی
+                    </a>
+                    <a href="#" class="torLinks">
+                        نوروز 96
+                    </a>
+                </div>
+                <br/>
             </div>
 
-            <div>
-                <div class="trip-list lTrip-no1-1">
+            <div class="row">
+                <div class="trip-list col-md-4 lTrip-no1-1">
+                    <div class="trip-price">
+                        3/500/000
+                    </div>
                     <div class="trip-title">
                         هند باورنکردنی
                     </div>
@@ -269,9 +404,22 @@
                     <div class="trip-duration">
                         3-11 مهر
                     </div>
+                    <div class="trip-icos">
+                        <img src="../assets/img/trip-icos/brifcase.jpg" data-toggle="tooltip"
+                             title="سفر نیازمند چمدان است">
+                        <img src="../assets/img/trip-icos/bus.jpg" data-toggle="tooltip" title="سفر با اتوبوس می باشد"
+                             data-toggle="tooltip" title="سفر با اتوبوس می باشد">
+                        <img src="../assets/img/trip-icos/food.jpg" data-toggle="tooltip" title="غذا موجود می باشد">
+                        <img src="../assets/img/trip-icos/shoe.jpg" data-toggle="tooltip"
+                             title="کفش مخصوص مورد نیاز است">
+                        <img src="../assets/img/trip-icos/tele.jpg" data-toggle="tooltip" title="تله کابین دارد">
+                    </div>
                 </div>
 
-                <div class="trip-list lTrip-no1-2">
+                <div class="trip-list col-md-4 lTrip-no1-2">
+                    <div class="trip-price">
+                        3/500/000
+                    </div>
                     <div class="trip-title">
                         هند باورنکردنی
                     </div>
@@ -281,9 +429,18 @@
                     <div class="trip-duration">
                         3-11 مهر
                     </div>
+                    <div class="trip-icos">
+                        <img src="../assets/img/trip-icos/shoe.jpg" data-toggle="tooltip"
+                             title="کفش مخصوص مورد نیاز است">
+                        <img src="../assets/img/trip-icos/tele.jpg" data-toggle="tooltip" title="تله کابین دارد">
+                    </div>
+
                 </div>
 
-                <div class="trip-list lTrip-no1-3">
+                <div class="trip-list col-md-4 lTrip-no1-3">
+                    <div class="trip-price">
+                        3/500/000
+                    </div>
                     <div class="trip-title">
                         هند باورنکردنی
                     </div>
@@ -293,11 +450,24 @@
                     <div class="trip-duration">
                         3-11 مهر
                     </div>
+                    <div class="trip-icos">
+                        <img src="../assets/img/trip-icos/brifcase.jpg" data-toggle="tooltip"
+                             title="سفر نیازمند چمدان است">
+                        <img src="../assets/img/trip-icos/bus.jpg" data-toggle="tooltip" title="سفر با اتوبوس می باشد">
+                        <img src="../assets/img/trip-icos/food.jpg" data-toggle="tooltip" title="غذا موجود می باشد">
+                        <img src="../assets/img/trip-icos/shoe.jpg" data-toggle="tooltip"
+                             title="کفش مخصوص مورد نیاز است">
+                        <img src="../assets/img/trip-icos/tele.jpg" data-toggle="tooltip" title="تله کابین دارد">
+                    </div>
+                    1 مهر
                 </div>
-
             </div>
-            <div>
-                <div class="trip-list lTrip-no2-1">
+
+            <div class="row">
+                <div class="trip-list col-md-4 lTrip-no2-1">
+                    <div class="trip-price">
+                        3/500/000
+                    </div>
                     <div class="trip-title">
                         هند باورنکردنی
                     </div>
@@ -306,10 +476,41 @@
                     </div>
                     <div class="trip-duration">
                         3-11 مهر
+                    </div>
+                    <div class="trip-icos">
+                        <img src="../assets/img/trip-icos/brifcase.jpg" data-toggle="tooltip"
+                             title="سفر نیازمند چمدان است">
+                    </div>
+
+                </div>
+
+                <div class="trip-list col-md-4 lTrip-no2-2">
+                    <div class="trip-price">
+                        3/500/000
+                    </div>
+                    <div class="trip-title">
+                        هند باورنکردنی
+                    </div>
+                    <div class="trip-desc">
+                        سفر 8 روزه
+                    </div>
+                    <div class="trip-duration">
+                        3-11 مهر
+                    </div>
+                    <div class="trip-icos">
+                        <img src="../assets/img/trip-icos/brifcase.jpg" data-toggle="tooltip"
+                             title="سفر نیازمند چمدان است">
+                        <img src="../assets/img/trip-icos/bus.jpg" data-toggle="tooltip" title="سفر با اتوبوس می باشد">
+                        <img src="../assets/img/trip-icos/food.jpg" data-toggle="tooltip" title="غذا موجود می باشد">
+                        <img src="../assets/img/trip-icos/shoe.jpg" data-toggle="tooltip"
+                             title="کفش مخصوص مورد نیاز است">
                     </div>
                 </div>
 
-                <div class="trip-list lTrip-no2-2">
+                <div class="trip-list col-md-4 lTrip-no2-3">
+                    <div class="trip-price">
+                        3/500/000
+                    </div>
                     <div class="trip-title">
                         هند باورنکردنی
                     </div>
@@ -319,17 +520,12 @@
                     <div class="trip-duration">
                         3-11 مهر
                     </div>
-                </div>
-
-                <div class="trip-list lTrip-no2-3">
-                    <div class="trip-title">
-                        هند باورنکردنی
-                    </div>
-                    <div class="trip-desc">
-                        سفر 8 روزه
-                    </div>
-                    <div class="trip-duration">
-                        3-11 مهر
+                    <div class="trip-icos">
+                        <img src="../assets/img/trip-icos/brifcase.jpg" data-toggle="tooltip"
+                             title="سفر نیازمند چمدان است">
+                        <img src="../assets/img/trip-icos/shoe.jpg" data-toggle="tooltip"
+                             title="کفش مخصوص مورد نیاز است">
+                        <img src="../assets/img/trip-icos/tele.jpg" data-toggle="tooltip" title="تله کابین دارد">
                     </div>
                 </div>
 
@@ -340,9 +536,9 @@
 
     <!-- ALL TRIPS -->
     <span class="breakPoint" id="sAllTripContainer"></span>
-    <div class="bg-dark2 section-xlg">
+    <div class="bg-lightgray section-xlg">
         <div class="container section Iran-Sans">
-            <div class="download">
+            <div class="download" style="text-align: center">
                 <div class="btn-group">
                     <button type="button" class="btn btn-success glyphicon glyphicon-list-alt">
                         دریافت لیست سفر ها
@@ -352,254 +548,290 @@
                     </button>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <table class="table table-bordered table-striped table-hover">
+                        <thead>
+                        <tr>
+                            <th>نام سفر</th>
+                            <th>مدت زمان</th>
+                            <th>تاریخ شروع</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>تور جنگل ابر</td>
+                            <td>2.5 روزه</td>
+                            <td>15~13/08/1395</td>
+                        </tr>
+                        <tr>
+                            <td>تور جنگل ابر</td>
+                            <td>2.5 روزه</td>
+                            <td>15~13/08/1395</td>
+                        </tr>
+                        <tr>
+                            <td>تور جنگل ابر</td>
+                            <td>2.5 روزه</td>
+                            <td>15~13/08/1395</td>
+                        </tr>
+                        <tr>
+                            <td>تور جنگل ابر</td>
+                            <td>2.5 روزه</td>
+                            <td>15~13/08/1395</td>
+                        </tr>
+                        <tr>
+                            <td>تور جنگل ابر</td>
+                            <td>2.5 روزه</td>
+                            <td>15~13/08/1395</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
         </div>
     </div>
 
-    <!-- RIFT -->
+    <!-- EDU -->
     <span class="breakPoint" id="sRiftContainer"></span>
-    <div class="bg-lightblue section-xlg">
-        <div class="container section Iran-Sans">
-            <div class="download">
-                <div>
-                    دریافت لیست سفر ها
-                </div>
-                <div>
-                    به اشتراک بگذارید
-                </div>
+    <div class="section-xlg row Iran-Sans" style="text-align: center">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+            <img src="../assets/img/slides/780/edu.jpg">
+        </div>
+        <div class="col-md-4">
+            <h1>
+                <span class="glyphicon glyphicon-facetime-video"></span>
+                همسفر مجازی
+            </h1>
+            <div>
+                <a href="#" class="torLinks">
+                    ویدئو
+                </a>
+                <a href="#" class="torLinks">
+                    عکس
+                </a>
+                <a href="#" class="torLinks">
+                    فایل
+                </a>
+                <a href="#" class="torLinks">
+                    اخبار
+                </a>
+            </div>
+            <h3>
+                کوه های هزار دره ترکمن صحرا، آشنایی با فرهنگ و اقوام مردم ترکمن صحرا، مقبره ی خالد نبی،
+                گورستان سنگی،موسیقی ترکمنی،برج گنبد کاووس،بازدید از مرکز پرورش اسب، جزیره آشوراده، آبشار کبودال، بازار
+                بندر ترکمن،
+                قایق سواری دریای خزر
+            </h3>
+            <div class="row" style="margin-bottom: 10px">
+                <div class="col-md-2 linksImg links_1_1"></div>
+                <div class="col-md-2 linksImg links_1_2"></div>
+                <div class="col-md-2 linksImg links_1_3"></div>
+                <div class="col-md-2 linksImg links_1_4"></div>
+                <div class="col-md-2 linksImg links_1_5"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 linksImg links_2_1"></div>
+                <div class="col-md-2 linksImg links_2_2"></div>
+                <div class="col-md-2 linksImg links_2_3"></div>
+                <div class="col-md-2 linksImg links_2_4"></div>
+                <div class="col-md-2 linksImg links_2_5"></div>
             </div>
         </div>
+        <div class="col-md-2"></div>
     </div>
 
     <!-- NEWS GROUP -->
     <span class="breakPoint" id="sNewsContainer"></span>
-    <div class="bg-lightblue section-xlg">
-        <div class="container section Iran-Sans">
-            <div class="download">
-                <div>
-                    دریافت لیست سفر ها
+    <div id="newsFeed" class="bg-dark section-xlg row">
+        <div class="col-md-2"></div>
+        <div class="Iran-Sans col-md-3 feed-form" style="text-align: center">
+            <form id="login-form" class="text-left">
+                <div class="login-form-main-message"></div>
+                <div class="main-login-form">
+                    <div class="login-group">
+                        <h1>
+                            عضویت در خبر نامه
+                        </h1>
+                        <h3>
+                            با عضویت در خبرنامه از اخرین تورها مطلع شوید.
+                        </h3>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="uLogin" placeholder="نام و نام خانوادگی">
+                                <label for="uLogin" class="input-group-addon glyphicon glyphicon-user"></label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="uEmail" placeholder="پست الکترونیکی">
+                                <label for="uEmail" class="input-group-addon glyphicon glyphicon-envelope"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-info btn-block login">
+                        عضویت
+                    </button>
                 </div>
-                <div>
-                    به اشتراک بگذارید
-                </div>
+            </form>
+        </div>
+        <div class="col-md-7"></div>
+    </div>
+
+    <!--OUR PARTNERS-->
+    <div class="section-xlg no-padding">
+        <span class="breakPoint" id="Sponsers"></span>
+        <div class="container section">
+            <div style="text-align: center;">
+                <img src="../assets/img/edu/slides/sponsers.png">
             </div>
         </div>
     </div>
 
-    <!--<div class="bg-lightblue section-xlg">-->
-    <!--<span class="breakPoint" id="sStory"></span>-->
-    <!--<div class="container section">-->
-    <!--<fieldset class="wow fadeInUpBig lazy animated Iran-Sans">-->
-    <!--<legend class="Cerulean-Blue Iran-Sans-Bold-3">درباره ما</legend>-->
-    <!--<screen-text>-->
-    <!--هما پی استارت آپی متفاوت است. نمادی از یک رویا برای بهتر شدن دنیای پیرامون ما . کنکاشی برای تبدیل-->
-    <!--کنجکاوی و بینش ما به فن آوری به محصولاتی متفاوت.<br/>-->
-    <!--هما پی نمادی از تلاش مهندسان ایرانی برای تولید فن آوری و خدمات نوینی است که زندگی روزمره ایرانیان را-->
-    <!--ساده تر میکند. و برای نیل به این هدف سیستمهای پرداخت را به عنوان مبدا این تغییر انتخاب نموده-->
-    <!--است.<br/>-->
-    <!--ما دوست دار تکنولوژی های مدرن هستیم. ما از به چالش کشیدن ناشناخته های فنی نمی هراسیم. ما به سختی-->
-    <!--تلاش میکنیم تا نرم افزار های با کیفیت تولید نماییم. ما با بررسی تاثیر نرم افزار هایمان بر روی افراد-->
-    <!--جامعه و کسب و کارها و نهاد های اجتماعی کیفیت کار خود را قضاوت می کنیم.-->
-    <!--</screen-text>-->
-    <!--<mob-text>-->
-    <!--هما پی نمادی از تلاش مهندسان ایرانی برای تولید فن آوری و خدمات نوینی است که زندگی روزمره ایرانیان را-->
-    <!--ساده تر میکند. و برای نیل به این هدف سیستمهای پرداخت را به عنوان مبدا این تغییر انتخاب نموده-->
-    <!--است.-->
-    <!--</mob-text>-->
-    <!--</fieldset>-->
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--&lt;!&ndash; ABOUT US &ndash;&gt;-->
-    <!--<span class="breakPoint" id="sWhatContainer"></span>-->
-    <!--<div class="bg-lightblue section-xlg">-->
-    <!--<span class="breakPoint" id="sWhat"></span>-->
-    <!--<div class="container section">-->
-    <!--<fieldset class="wow fadeInUpBig lazy animated Iran-Sans">-->
-    <!--<legend class="Cerulean-Blue Iran-Sans-Condensed">کار ما</legend>-->
-    <!--<screen-text>-->
-    <!--<h1 class="Iran-Sans-Bold-3">ما محصولاتی تولید میکنیم که واقعا کار میکنند!</h1>-->
-    <!--هما پی سالها تجربه در زمینه معماری های مدرن ، تکنولوژی های متن باز و سیستم های پرداخت را در هم آمیخته تا-->
-    <!--راه کارها و خدمات متفاوتی را تولید نماید.<br/>-->
-    <!--اگر شما مشتاق تجربه راه حل های مدرن در پرداخت به دوستان و آشنایان هستید ، یا بازرگانی که مشتاق ارایه-->
-    <!--راهکارهای بهینه تر پرداخت به مشتریان خود میباشد و یا کسب و کار بزرگی که به دنبال یافتن راه کار های-->
-    <!--خلاقانه تر پرداخت به مشتریان خود است ، ما برای حل مشکل شما راه حلی متفاوت پیشنهاد خواهیم کرد.-->
-    <!--</screen-text>-->
-    <!--<mob-text>-->
-    <!--<h1 class="Iran-Sans-Bold-3">ما محصولاتی تولید میکنیم که واقعا کار میکنند!</h1>-->
-    <!--</mob-text>-->
-    <!--</fieldset>-->
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--<span class="breakPoint" id="sVisionContainer"></span>-->
-    <!--<div class="bg-lightblue section-xlg">-->
-    <!--<span class="breakPoint" id="sVision"></span>-->
-    <!--<div class="container section">-->
-    <!--<fieldset class="wow fadeInUpBig lazy animated Iran-Sans White-Color">-->
-    <!--<legend class="Cerulean-Blue Iran-Sans-Bold-3 Cerulean-Blue">نگاه ما</legend>-->
-    <!--با توسعه تلفن های همراه و تبلت ها ، پرداخت برای خدمات یا سرویس ها باید خیلی ساده تر از راه کارهای موجود-->
-    <!--باشد. نوآوری های فن آوری در برگیرنده ساده تر کردن تجربه کاربری و در عین حال در بر گیرنده ساختن نرم-->
-    <!--افزارهای مدرن ، ایمن ، با کاربری در فضای اینترپرایز و نهایتا کاربردی و عملیاتی است.-->
-    <!--</fieldset>-->
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--&lt;!&ndash; Join Us &ndash;&gt;-->
-    <!--<span class="breakPoint" id="sJoinContainer"></span>-->
-    <!--<div class="bg-lightblue section-xlg">-->
-    <!--<div class="container section Iran-Sans">-->
-    <!--<span class="breakPoint" id="sJoin"></span>-->
-    <!--<fieldset class="wow fadeInUpBig lazy animated">-->
-    <!--<legend class="Cerulean-Blue Iran-Sans-Bold-3">به ما بپیوندید</legend>-->
-    <!--اگر شما برنامه نویسی عالی هستید که میتواند تفاوت ایجاد کند ، یا مدیر محصولی چیره دست که میخواهد از زیر و-->
-    <!--بم سیستمش آگاه باشد یا یک خبره در زمینه راهبری و نگهداری سیستمهای متن باز که از بیرون هم به مسایل نگاه-->
-    <!--میکند ، ما دوست خوب شما هستیم. <br/>-->
-    <!--ما صبح خود را با ارزش هایمان آغاز می کنیم ، ارزشهایی که آنچه در هماپی تولید می کنیم را شکل میدهند و کمک-->
-    <!--می کنند تا مشکلاتمان را به مبارزه بطلبیم ، ریسک کنیم ، و به عنوان یک تیم ، باهوش عمل کنیم.-->
-
-    <!--</fieldset>-->
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--&lt;!&ndash; our Prop &ndash;&gt;-->
-    <!--<span class="breakPoint" id="sPropContainer"></span>-->
-    <!--<div class="bg-coolblue section-xlg">-->
-    <!--<div class="container section Iran-Sans">-->
-    <!--<span class="breakPoint" id="sProp"></span>-->
-    <!--<iframe src="../assets/frame/fa/prop.html"></iframe>-->
-
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--&lt;!&ndash; PORTFOLIO SECTION &ndash;&gt;-->
-    <!--<span class="breakPoint" id="open-position"></span>-->
-    <!--<div class="bg-dark section-xlg">-->
-
-    <!--<div class="container">-->
-    <!--<h2 class="lg-title Cerulean-Blue">فرصت های شغلی</h2>-->
-    <!--<p>-->
-    <!--ما استارت آپی در حال گسترش هستیم و امیدواریم شما مایل به کار با ما باشید. با پیوستن به ما از بهترین ها-->
-    <!--یاد بگیرید و در عین حال تجربه پرداخت را در جامعه و در میان دوستانتان گسترش دهید.-->
-
-
-    <!--</p>-->
-    <!--<div class="cbp-panel">-->
-    <!--<div id="filters-container" class="cbp-l-filters-work filter-tabs">-->
-    <!--<div data-filter="*" class="cbp-filter-item-active cbp-filter-item">SHOW ALL-->
-    <!--</div>-->
-    <!--<div data-filter=".engineer" class="cbp-filter-item">مهندس-->
-    <!--<div class="cbp-filter-counter"></div>-->
-    <!--</div>-->
-    <!--<div data-filter=".it" class="cbp-filter-item">فن آوری اطلاعات-->
-    <!--<div class="cbp-filter-counter"></div>-->
-    <!--</div>-->
-    <!--<div data-filter=".product" class="cbp-filter-item">محصول-->
-    <!--<div class="cbp-filter-counter"></div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<div id="grid-container" class="cbp-l-grid-work cbp-animation-quicksand Iran-Sans-Medium">-->
-
-    <!--<div class="cbp-item engineer">-->
-    <!--<a href="../assets/ajax/work/project1.html" class="cbp-l-grid-work-title cbp-singlePage">مهندس-->
-    <!--نرم افزار ارشد – جاوا</a>-->
-    <!--<div class="cbp-l-grid-work-desc">تهران</div>-->
-    <!--</div>-->
-
-    <!--<div class="cbp-item engineer">-->
-    <!--<a href="../assets/ajax/work/project1.html" class="cbp-l-grid-work-title cbp-singlePage">مهندس-->
-    <!--نرم افزار – جاوا</a>-->
-    <!--<div class="cbp-l-grid-work-desc">تهران</div>-->
-    <!--</div>-->
-
-    <!--<div class="cbp-item engineer">-->
-    <!--<a href="../assets/ajax/work/project1.html" class="cbp-l-grid-work-title cbp-singlePage">مهندس-->
-    <!--نرم افزار- مو بایل ios و android</a>-->
-    <!--<div class="cbp-l-grid-work-desc">تهران</div>-->
-    <!--</div>-->
-
-    <!--<div class="cbp-item engineer">-->
-    <!--<a href="../assets/ajax/work/project1.html" class="cbp-l-grid-work-title cbp-singlePage">مهندس-->
-    <!--نرم افزار – تست موبایل و وب</a>-->
-    <!--<div class="cbp-l-grid-work-desc">تهران</div>-->
-    <!--</div>-->
-
-    <!--<div class="cbp-item engineer">-->
-    <!--<a href="../assets/ajax/work/project1.html" class="cbp-l-grid-work-title cbp-singlePage">مهندس-->
-    <!--نرم افزار – رابط کاربری</a>-->
-    <!--<div class="cbp-l-grid-work-desc">تهران</div>-->
-    <!--</div>-->
-
-    <!--<div class="cbp-item it">-->
-    <!--<a href="../assets/ajax/work/project1.html" class="cbp-l-grid-work-title cbp-singlePage">مهندس-->
-    <!--نرم افزار- راهبرد تولید</a>-->
-    <!--<div class="cbp-l-grid-work-desc">تهران</div>-->
-    <!--</div>-->
-
-    <!--<div class="cbp-item product">-->
-    <!--<a href="../assets/ajax/work/project6.html" class="cbp-l-grid-work-title cbp-singlePage">مدیر-->
-    <!--ارشد تولید</a>-->
-    <!--<div class="cbp-l-grid-work-desc">تهران</div>-->
-    <!--</div>-->
-
-    <!--</div>-->
-    <!--<div class="space"></div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--&lt;!&ndash; /PORTFOLIO SECTION &ndash;&gt;-->
-
-    <!--&lt;!&ndash; CONTACT SECTION &ndash;&gt;-->
-    <!--<span class="breakPoint" id="sContact"></span>-->
-
-
-    <!--&lt;!&ndash; GOOGLE MAPS &ndash;&gt;-->
-    <!--<div id="map"></div>-->
-    <!--&lt;!&ndash; /GOOGLE MAPS &ndash;&gt;-->
-
-    <!--&lt;!&ndash; FOOTER &ndash;&gt;-->
-    <!--<div class="footer">-->
-    <!--<div class="container">-->
-    <!--<div class="space-sm"></div>-->
-    <!--<ul class="dark-icons icons-list center-block">-->
-    <!--<li>-->
-    <!--<a href="https://twitter.com/HomapayCo" title="Follow us">-->
-    <!--<i class="fa fa-twitter"></i>-->
-    <!--</a>-->
-    <!--</li>-->
-    <!--<li>-->
-    <!--<a href="https://www.facebook.com/HomaPay/" title="Follow us">-->
-    <!--<i class="fa fa-facebook"></i>-->
-    <!--</a>-->
-    <!--</li>-->
-    <!--<li>-->
-    <!--<a href="https://www.linkedin.com/company/homapay" title="Follow us">-->
-    <!--<i class="fa fa-linkedin"></i>-->
-    <!--</a>-->
-    <!--</li>-->
-    <!--<li>-->
-    <!--<a href="https://www.pinterest.com/homapayco/" title="Follow us">-->
-    <!--<i class="fa fa-pinterest"></i>-->
-    <!--</a>-->
-    <!--</li>-->
-    <!--</ul>-->
-    <!--<div class="space-md"></div>-->
-    <!--<div class="Iran-Sans-Light">-->
-    <!--&lt;!&ndash; &copy; 2015 Influence. All rights reserved. Theme by <a href="https://twitter.com/cermak_jiri" target="_blank">Jiri Cermak</a>. &ndash;&gt;-->
-    <!--<div style="text-align: justify;display: inline-block; margin: 0 7px 0 7px;">-->
-    <!--ایران؛ تهران؛ خیابان شهیدکلاه دوز؛ خیابان بهمنی؛<br/>-->
-    <!--خیابان پروانه؛ کوچه نوروزی؛ پلاک ۴ زنگ ۱-->
-    <!--</div>-->
-    <!--<div style="display: inline-block; padding: 0 7px 0 7px;border-left: 1px solid #fff;border-right: 1px solid #fff;">-->
-    <!--تلفن: +9821 2664 0349 <br/>-->
-    <!--فاکس: +9821 2660 4749-->
-    <!--</div>-->
-    <!--<div style="display: inline-block; margin: 0 7px 0 7px;">-->
-    <!--پست الکترونیکی: info@homapay.com <br/>-->
-    <!--وب سایت: www.homapay.com-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
+    <!-- FOOTER -->
+    <div class="footer iran-sans">
+        <br/>
+        <div class="container">
+            <div class="row" style="text-align: center;">
+                <div class="col-md-3">
+                    <h3>
+                        منو بار
+                    </h3>
+                    <ul style="list-style: none;">
+                        <li>
+                            <a>
+                                خانه
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                آموزش
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                در سفر
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                دست نوشته ها
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                اخبار
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                دیگر فعالیت ها
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                در باره ی ما
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>
+                        دیگر فعالیت ها
+                    </h3>
+                    <ul style="list-style: none;">
+                        <li>
+                            <a>
+                                باشگاه هنر و طبیعت
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                کافه طبیعت
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                کانون کوهنوردی طبیعت
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                بچه های طبیعت
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>
+                        تماس با ما
+                    </h3>
+                    <ul style="list-style: none;">
+                        <li>
+                            <h4>
+                                آدرس
+                            </h4>
+                        </li>
+                        <li>
+                            <a>
+                                خیابان سید جمال اسد آبادی(یوسف آباد)، نرسیده به میدان فرهنگ،
+                                روبروی قنادی پوپک، شماره 267، طبقه ی اول، واحد
+                            </a>
+                        </li>
+                        <li>
+                            <h4>
+                                تلفن
+                            </h4>
+                        </li>
+                        <li>
+                            <a>
+                                88103928, 88103927
+                                <br/>
+                                66930777, 66930663
+                            </a>
+                        </li>
+                        <li>
+                            <h4>
+                                رایانامه
+                            </h4>
+                        </li>
+                        <li>
+                            <a>
+                                info@tabiat.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div id="cal_container"></div>
+                </div>
+            </div>
+            <div class="space-sm"></div>
+            <ul class="dark-icons icons-list center-block">
+                <li>
+                    <a href="https://twitter.com/" title="Follow us">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" title="Follow us">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/" title="Follow us">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.pinterest.com/" title="Follow us">
+                        <i class="fa fa-pinterest"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <!-- /FOOTER -->
 
 
@@ -640,8 +872,6 @@
 <script src="../assets/js/plugins/awesome-work.js"></script>
 <script src="../assets/js/plugins/jquery.modalEffects.js"></script>
 <script src="../assets/js/plugins/cssParser.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-<script src="../assets/js/plugins/snazzy-maps.js"></script>
 
 <script src="../assets/js/plugins.js"></script>
 <script src="../assets/js/custom.js"></script>
@@ -649,6 +879,7 @@
 <script>
     $(function () {
         //Plugins Init
+        $('[data-toggle="tooltip"]').tooltip();
         Plugins.init();
         Plugins.animations();
         Plugins.wow();
@@ -664,6 +895,18 @@
         Custom.init();
         Custom.loadMoreNews();
         Custom.mobileMenuAnimation();
+    });
+</script>
+
+<script src="../assets/js/plugins/bootstrap-datepicker.fa.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#cal_container").datepicker({
+            inline: true,
+            minDate: 0,
+            maxDate: 0,
+            showButtonPanel: false
+        });
     });
 </script>
 

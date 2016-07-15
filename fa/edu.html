@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--<html lang="en" manifest="index.appcache">-->
+<!--<html lang="en" manifest="../index.appcache">-->
 <html lang="en">
 
 <head>
@@ -356,7 +356,14 @@
     <span class="breakPoint" id="sHistoryContainer"></span>
     <div id="History" align="center">
         <div class="section partner bg-brown White-Color RoyaWeb-Regular row" margin="auto">
-            <div id="HistoryImg" class="col-md-5"></div>
+            <div id="HistoryImg" class="col-md-5">
+                <img src="../assets/img/edu/slides/history/1.jpg"/>
+                <img src="../assets/img/edu/slides/history/2.jpg"/>
+                <img src="../assets/img/edu/slides/history/3.jpg"/>
+                <img src="../assets/img/edu/slides/history/4.jpg"/>
+                <img src="../assets/img/edu/slides/history/5.jpg"/>
+                <img src="../assets/img/edu/slides/history/6.jpg"/>
+            </div>
             <!--<iframe id="HistoryFrame" src="../assets/frame/fa/historyRoller.html"></iframe>-->
             <div id="carousel-wrapper" class="col-md-7">
                 <div id="carousel" class="row" data-state="1" style="-webkit-transform: rotateX(0deg)">
@@ -365,7 +372,7 @@
                         10.دی.1394
                         </span>
                         <span>
-                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت
+                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت 1
                         </span>
                     </figure>
                     <figure>
@@ -373,7 +380,7 @@
                         10.دی.1394
                         </span>
                         <span>
-                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت
+                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت 2
                         </span>
                     </figure>
                     <figure>
@@ -381,7 +388,7 @@
                         10.دی.1394
                         </span>
                         <span>
-                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت
+                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت 3
                         </span>
                     </figure>
                     <figure>
@@ -389,7 +396,7 @@
                         10.دی.1394
                         </span>
                         <span>
-                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت
+                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت 4
                         </span>
                     </figure>
                     <figure>
@@ -397,7 +404,7 @@
                         10.دی.1394
                         </span>
                         <span>
-                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت
+                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت 5
                         </span>
                     </figure>
                     <figure>
@@ -405,15 +412,31 @@
                         10.دی.1394
                         </span>
                         <span>
-                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت
+                        تقویم صعودهای زمستانی کانون کوهنوردی طبیعت 6
                         </span>
                     </figure>
                 </div>
+
+                <span class="glyphicon glyphicon-chevron-down" onclick="historyGoDown();" style="font-size: 24px;margin-top: 280px;cursor: pointer;margin-right: 20%;"></span>
             </div>
             <script>
                 var historyCounter = 6;
                 var increment = 0;
                 var carousel = $('#carousel');
+                var historyImages = $('#HistoryImg img');
+
+                var imgIndex = 0;
+
+                function changeHistImage() {
+                    var vis = $(historyImages[imgIndex]);
+                    imgIndex = (imgIndex + 1) % historyImages.size();
+                    var hid = $(historyImages[imgIndex]);
+                    vis.fadeOut("slow", function () {
+                        hid.fadeIn("slow")
+                    })
+
+
+                }
 
                 setInterval(function () {
                     increment++;
@@ -431,7 +454,27 @@
                         increment
                     }
                     carousel.attr('data-state', (increment % historyCounter) + 1);
+                    changeHistImage()
                 }, 4000);
+
+                function historyGoDown() {
+                    increment++;
+                    carousel.css({
+                        '-webkit-transform': 'rotateX(' + (increment * -60) + 'deg)'
+                    });
+                    carousel.css({
+                        '-ms-transform': 'rotateX(' + (increment * -60) + 'deg)'
+                    });
+                    carousel.css({
+                        'transform': 'rotateX(' + (increment * -60) + 'deg)'
+                    });
+                    var pastSix = 0;
+                    if (increment > historyCounter) {
+                        increment
+                    }
+                    carousel.attr('data-state', (increment % historyCounter) + 1);
+                    changeHistImage()
+                }
             </script>
         </div>
     </div>
