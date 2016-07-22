@@ -1,0 +1,29 @@
+#tripHolder + .row {
+    padding-top: 50vh;
+    background: url("../../img/trips/top-banner.jpg") no-repeat;
+    background-size: contain;
+}
+
+.inner-trip-title {
+    background: rgba(128, 128, 128, 0.4);
+    padding: 25px;
+}
+
+.inner-trip-title .trip-directory{
+    color: #ffe7e7;
+}
+
+.inner-trip-title h1{
+    color: white;
+    padding-right: 70px;
+    font-weight: 600;
+}
+
+.trip-desc {
+    margin-top: 50px;
+}
+
+.trip-desc .col-md-6{
+    background: white;
+    height: 530px;
+}

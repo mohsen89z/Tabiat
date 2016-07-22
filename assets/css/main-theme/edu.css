@@ -637,11 +637,6 @@ img.footer-tabligh:last-of-type {
     cursor: pointer;
 }
 
-@media (min-width: 1200px) {
-    .row {
-        margin-right: auto !important;
-    }
-}
 
 .navbar-height .tabiat-login {
     opacity: 1;
