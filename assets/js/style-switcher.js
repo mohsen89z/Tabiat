@@ -103,7 +103,7 @@
                     /* Refresh the slider Revolution */
                     $('.tp-banner').revolution({
                         delay: 11000,
-                        startheight: 700,
+                        startheight: 1000,
                         startwidth: 1170,
                         hideThumbs: 10,
                         navigationType: "none",
@@ -124,7 +124,7 @@
                     $('.tp-banner-container').css({
                         'position': 'relative',
                         'overflow': 'hidden',
-                        'max-height': '700px',
+                        'max-height': '80vh',
                         'max-width': '100%',
                         'left': 0
                     });

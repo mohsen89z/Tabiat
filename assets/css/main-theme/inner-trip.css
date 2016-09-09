@@ -10,7 +10,11 @@
 }
 
 .inner-trip-title .trip-directory{
-    color: #ffe7e7;
+    color: #ffe7e7 !important;
+}
+
+.inner-trip-title .trip-directory a{
+    color: #ffe7e7 !important;
 }
 
 .inner-trip-title h1{
